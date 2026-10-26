@@ -1,0 +1,10 @@
+{
+  "name": "damata-local",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.cjs",
+    "check": "node --check app.js && node --check admin.js && node --check server.cjs && node --check storage.cjs",
+    "test": "node --test server.test.cjs"
+  }
+}
