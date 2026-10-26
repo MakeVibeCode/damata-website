@@ -11,7 +11,7 @@ let app=fs.readFileSync(path.join(root,'app.js'),'utf8');
 const start=app.indexOf('async function finish(){'),end=app.indexOf('function fileSummary()',start);
 app=app.slice(0,start)+`async function finish(){if(completed)return;completed=true;$('#quiz-body').innerHTML=\`<div class="quiz-top"><span class="eyebrow">Демонстрация DAMATA</span><button class="close" aria-label="Закрыть">×</button></div><h2 id="quiz-title" tabindex="-1">Подбор<br><em>готов.</em></h2><p>Это демонстрационная версия для просмотра. Данные не отправлены и не сохранены. Приём реальных заявок и проектов будет подключён на серверной версии.</p>\${summary()}<button id="finish-close" type="button" class="pill filled">Готово</button>\`;$('.close').onclick=closeQuiz;$('#finish-close').onclick=closeQuiz;$('#quiz-title').focus()}\n`+app.slice(end);
 app=app.replace('if(step===2)bindFiles();','');
-app=app.replace('Отправить заявку','Посмотреть подбор');
+app=app.replaceAll('Отправить заявку','Посмотреть подбор');
 app=app.replace('Нажимая «Посмотреть подбор», вы передаёте DAMATA заполненные данные, контакты и выбранные файлы для подготовки расчёта. Переходить в WhatsApp не нужно.','Демонстрация: не вводите реальные контактные данные. Форма показывает подбор, ничего не отправляет и не сохраняет.');
 app=app.replace('const id=location.pathname.split(\'/\').filter(Boolean)[1];',"const id=location.pathname.match(/\\/catalog\\/([^/]+)/)?.[1];");
 app=app.replace("?c.image:`/assets/",`?'${prefix}'+c.image:\`/assets/`);
