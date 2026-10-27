@@ -63,3 +63,13 @@ Fonts are hosted under assets/fonts.css and font files, with OFL licenses includ
 Layout: desktop split hero; 3-column catalogue with a two-column fibre-cement card, matching image row heights; 2-column tablet; single-column mobile. Filters become a stable 2-column grid on phones. No content requires hover. A persistent mobile action respects safe areas. Native dialog keeps the established six-step file/contact workflow. Mobile navigation is a nonmodal disclosure: opening focuses its first link, Escape closes and restores trigger focus. Cross-document transitions are progressive enhancement, section reveals and image hover are restrained; reduced motion disables animation.
 
 GitHub Pages remains a clearly labelled static demonstration: no real lead collection, uploads or admin. Server version remains local with SQLite/private uploads. All nine category routes share the public presentation system.
+
+## Mobile readability and catalogue imagery — 2026-10-27
+
+User rejected microscopic phone text and the abstract opening. The headline now explicitly says “Для строительных компаний. Напрямую из Китая.” Public typography uses runtime-owned `--text-meta:14px`, `--text-body:16px`, `--text-lead:18px` throughout shared templates; catalogue titles are 26px and card links 16px on phones. Card price and title stack instead of competing for width. Filters remain two columns with 14px labels and 54px minimum height. The demo notice is the sole 12px annotation; primary content never depends on it. Mobile inputs remain at least 16px. The authenticated CMS typography is unchanged.
+
+The actual six-stage process uses large 28px mobile headings and 42px sequence numerals. Runtime colours: `--stage-select:#315e50`, `--stage-samples:#88551f`, `--stage-contract:#345f89`, `--stage-quality:#66558a`, `--stage-customs:#98533b`, `--stage-delivery:#28686a`. Sequence and titles communicate meaning independently of colour. All stage descriptions use 16px body type. Desktop stage headings are 27px.
+
+Seven generated visual references are under `assets/generated-*.jpg`: bamboo panel lobby, shared entrance lobby, apartment door, electronic lock, staircase railings, ordinary panel radiator and open residential lift. Prompts/provenance: `assets/generated-catalogue-sources.json`. `app.js` owns the shared image mapping; explicit CMS `/media/` photos still take precedence. Images illustrate product types, not exact available models or DAMATA portfolio claims. Public application areas use the shared-lobby image.
+
+The latest user instruction defers server hosting and public admin: continue publishing the static GitHub Pages demo, with real lead/file submission disabled. Do not describe this release as enabling online persistence.

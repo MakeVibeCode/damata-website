@@ -1,7 +1,8 @@
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const money=n=>new Intl.NumberFormat('ru-RU').format(n);
-const image=c=>c.image.startsWith('/media/')?c.image:`/assets/${c.image}.${c.image==='locks'?'svg':'jpg'}`;
+const generatedImages={panels:'generated-panels',doors:'generated-doors',locks:'generated-locks',railings:'generated-railings',radiators:'generated-radiators',elevators:'generated-elevators'};
+const image=c=>c.image.startsWith('/media/')?c.image:`/assets/${generatedImages[c.id]||c.image}.jpg`;
 let catalogue=[], current=null, step=0, answers={}, opener=null, completed=false, leadContext={}, projectFiles=[], submitting=false;
 const arrow='<span aria-hidden="true">↗</span>';
 function init(){const id=location.pathname.split('/').filter(Boolean)[1];current=catalogue.find(c=>c.id===id)||null;if(location.pathname.startsWith('/catalog/')&&!current){$('#app').innerHTML=header()+`<main id="main" class="section wrap not-found"><h1>Такого направления пока нет.</h1><a class="pill filled" href="/#catalog">Открыть каталог →</a></main>`+footer()}else{$('#app').innerHTML=header()+(current?productPage(current):home())+footer()}document.title=current?`${current.name} — цены и поставка из Китая | DAMATA`:'DAMATA — Поставки в масштабе вашей стройки';bind();observe();bindPresentation();if(location.hash)requestAnimationFrame(()=>document.getElementById(location.hash.slice(1))?.scrollIntoView())}
