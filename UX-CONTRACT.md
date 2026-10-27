@@ -27,3 +27,6 @@ Owner catalog-admin.js / catalogue.cjs. Source of truth is versioned SQLite JSON
 
 ## Current business source of truth
 Customer (Kazakhstan company) → direct goods contract → Chinese supplier. DAMATA → assistance/sourcing and full transaction/import accompaniment, not goods purchaser/reseller. All Kazakhstan regions. No blanket DAMATA VAT goods-sale claim. Latest user correction overrides earlier commercial descriptions.
+
+## Public GitHub Pages WhatsApp handoff — current
+Build transport variant public-whatsapp.js replaces only local submission/file-picker behavior. Preserve validated six-step answers and required contacts. Final “Открыть WhatsApp” navigates to wa.me/77020818888 with the complete encoded message. Only the customer's Send action in WhatsApp transmits it; do not show sent/delivered/saved confirmation on the site. Return/recovery screen exposes readonly full text, reopen link and editable contacts. Project URL is included; actual files must be attached in WhatsApp. No API request, upload or database on Pages. Local Node persistence is unaffected. All customer data remains in form memory until explicitly opening WhatsApp; do not add browser persistence or analytics capture of fields.
