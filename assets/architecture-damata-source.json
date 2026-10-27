@@ -1,0 +1,8 @@
+{
+  "asset": "architecture-damata.jpg",
+  "created": "2026-10-27",
+  "method": "OpenAI built-in image_gen",
+  "use": "Architectural visualization for the DAMATA website; not a completed company project or a product photo",
+  "prompt": "Use case: stylized-concept. Create a photorealistic architectural art photograph for the premium Kazakhstan B2B material sourcing company DAMATA website, no text, no logos. Wide landscape 3:2 composition. A serene monumental contemporary building courtyard: intersecting tall pale limestone and light-grey fibre-cement monolithic planes, a floating horizontal bridge in dark bronze metal, a single strong vertical ribbed facade, huge frameless glazing, a reflecting pool in the foreground. Brutalist precision softened by late afternoon light, richly tactile stone and ceramic, believable architectural construction, impeccable magazine-quality photographic art direction, clean shadows, muted cool greys and warm silver light, very expensive architectural studio aesthetic. Subject fills the image with dramatic close-to-mid range geometry, strong diagonal sunlight and deep petrol shadows. A sculptural cantilever projecting over water, no arches, no columns with classical ornament, no people, no greenery dominating, no cars. Realistic 35mm architectural photography, not a website mockup, not an infographic. Balanced detailed building composition that crops beautifully to a tall portrait on mobile.",
+  "delivery": "JPEG optimized for web from generated PNG; original composition preserved"
+}

@@ -1,4 +1,4 @@
-# DOMATA — design context
+# DAMATA — design context
 
 Russian mobile-first B2B catalogue for direct sourcing of building materials from China. Local site with explicit WhatsApp handoff; no automatic submissions, analytics, CRM or deployment. Prices are illustrative KZT, not offers. Stock images illustrate applications, not completed company projects.
 
@@ -32,3 +32,34 @@ GitHub publication explicitly authorised. main contains server/CMS code with dat
 
 ## Authoritative business correction — 2026-10-27
 Latest explicit user instruction supersedes earlier reseller/VAT wording. DAMATA does not buy or resell goods in its own name. Kazakhstan customer contracts directly with the verified Chinese supplier. DAMATA helps source supplier, approve samples and agree direct contract, then accompanies purchase/performance, quality inspection, logistics, border/customs clearance, required certification and delivery. Nationwide Kazakhstan, all regions. Do not claim DAMATA sells goods with VAT or purchases goods itself. Taxes and costs are transaction-specific; do not invent a legal/tax structure. Applies to hero, shared service/process/FAQ, category notes, metadata and WhatsApp request text.
+
+## Approved full public redesign — 2026-10-27
+
+The user requested a complete, high-end architectural redesign of the whole public website. This supersedes the earlier public charcoal/gold layout. Register: public marketing + shared request dialog; authenticated CMS behavior and its existing styles remain intact.
+
+North star: a precise architectural studio that understands material sourcing at construction scale. A split opening pairs large typographic intent with a commissioned architectural image; cool chalk, petrol ink, fine rules and restrained motion. The dark direct-contract section explains the actual three-party relationship rather than suggesting DAMATA resells goods. Avoid generic metric counters, invented portfolio claims, decorative numbering outside the real process, forced cursor effects and scroll hijacking.
+
+Canonical runtime owner: `design.css :root` for public UI, with documentation mirroring runtime (token ownership model B). `presentation.js` owns shared header/footer, home and category templates, service/process, FAQ and product cards. `app.js` owns catalogue loading/filtering and the unchanged request/validation/persistence workflow. `styles.css` remains the authenticated admin style owner; it is not loaded by the public marketing page.
+
+| Role | Public runtime token | Value / consumer |
+|---|---|---|
+| Page | --paper | #f2f4f1; public background |
+| Surface | --surface | #ffffff; products and fields |
+| Ink | --ink | #192f31; text and primary buttons |
+| Secondary | --muted | #596966; supporting text |
+| Hairline | --line | #cdd4ce; filters, separators, fields |
+| Action/focus | --accent | #36594f; hover, selected, focus |
+| Subtle fill | --dark | #e7ece7; form notes / hover |
+| Dark section | --deep | #182e30; supply and footer |
+| Media base | --stone | #dce2da; reserved image background |
+| Scrollbar | --thumb / --track / --thumb-hover | #7a8f87 / #e6ebe6 / #526e64 |
+| Error | --error | #a7332f; textual form errors |
+| Body/display | --sans | locally hosted Manrope, Arial fallbacks |
+| Editorial emphasis | --serif | locally hosted Prata, Georgia fallbacks |
+| Content | --max / --gutter | 1480px / clamp(22px,4.3vw,80px) |
+
+Fonts are hosted under assets/fonts.css and font files, with OFL licenses included. New imagery: assets/architecture-damata.jpg, built-in image generation; exact prompt and provenance in assets/architecture-damata-source.json. It is explicitly labelled as a visualization, never a DAMATA case study.
+
+Layout: desktop split hero; 3-column catalogue with a two-column fibre-cement card, matching image row heights; 2-column tablet; single-column mobile. Filters become a stable 2-column grid on phones. No content requires hover. A persistent mobile action respects safe areas. Native dialog keeps the established six-step file/contact workflow. Mobile navigation is a nonmodal disclosure: opening focuses its first link, Escape closes and restores trigger focus. Cross-document transitions are progressive enhancement, section reveals and image hover are restrained; reduced motion disables animation.
+
+GitHub Pages remains a clearly labelled static demonstration: no real lead collection, uploads or admin. Server version remains local with SQLite/private uploads. All nine category routes share the public presentation system.

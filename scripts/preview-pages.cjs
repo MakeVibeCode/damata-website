@@ -1,0 +1,6 @@
+// Local, loopback-only preview of the exact GitHub Pages path and static artifact.
+const http=require('node:http'),fs=require('node:fs'),path=require('node:path');
+const root=path.resolve(__dirname,'../github-preview'),prefix='/damata-website',port=4175;
+const types={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json; charset=utf-8','.svg':'image/svg+xml','.jpg':'image/jpeg','.png':'image/png','.ttf':'font/ttf','.woff2':'font/woff2','.txt':'text/plain; charset=utf-8'};
+http.createServer((req,res)=>{const url=new URL(req.url,'http://localhost');if(url.pathname==='/'){res.writeHead(302,{Location:prefix+'/'});return res.end()}if(!url.pathname.startsWith(prefix+'/')){res.writeHead(404);return res.end()}let file=path.resolve(root,'.'+decodeURIComponent(url.pathname.slice(prefix.length)));if(file!==root&&!file.startsWith(root+path.sep)){res.writeHead(403);return res.end()}if(fs.existsSync(file)&&fs.statSync(file).isDirectory())file=path.join(file,'index.html');if(!fs.existsSync(file)){res.writeHead(404);return res.end()}res.writeHead(200,{'Content-Type':types[path.extname(file)]||'application/octet-stream','Cache-Control':'no-store'});fs.createReadStream(file).pipe(res)}).listen(port,'127.0.0.1',()=>console.log('GitHub Pages preview: http://localhost:'+port+prefix+'/'));
+

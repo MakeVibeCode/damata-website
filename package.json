@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node server.cjs",
-    "check": "node --check app.js && node --check admin.js && node --check server.cjs && node --check storage.cjs",
+    "check": "node --check app.js && node --check presentation.js && node --check admin.js && node --check server.cjs && node --check storage.cjs",
     "test": "node --test server.test.cjs"
   }
 }
