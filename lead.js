@@ -17,7 +17,7 @@ var DomataLead = (() => {
     ];
     const lines = ['ЗАЯВКА DAMATA', `Номер заявки: ${context.id || 'не указан'}`, '',
       ...rows.filter(([,v]) => clean(v)).map(([label,value]) => `${label}: ${clean(value)}`),
-      '', 'Нужен расчёт прямой поставки из Китая с НДС.'];
+      '', 'Нужен подбор проверенного поставщика в Китае, помощь с прямым контрактом и расчёт сопровождения поставки в Казахстан.'];
     if (context.path) lines.push(`Страница входа: ${context.path}`);
     const source = context.source || {};
     const sourceNames = {utm_source:'Источник',utm_medium:'Канал',utm_campaign:'Кампания',utm_content:'Объявление',utm_term:'Ключевая фраза'};
