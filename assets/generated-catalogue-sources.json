@@ -1,0 +1,49 @@
+{
+  "created": "2026-10-27",
+  "method": "OpenAI built-in image_gen",
+  "use": "Illustrative AI-generated catalogue imagery; not exact product photographs or completed DAMATA projects.",
+  "images": [
+    {
+      "id": "panels",
+      "prompt": "Create one single photorealistic high-end architectural/product photograph for DAMATA construction-supply catalogue, no collage, no text, no logos, no watermark, no people. Landscape 3:2 image. Accurate believable construction, editorial photography, natural colour, premium contemporary Kazakhstan residential-building setting, accessible commercially realistic mid-market materials presented beautifully, crisp detail, soft daylight and warm architectural light. Modern apartment building shared entrance lobby (not a private living room), with beautiful full-height light honey bamboo-composite wall panels, broad flat panels and some ribbed panels, large neutral porcelain floor tiles, dark bronze lift doors visible in background, tidy bright modern common area. Bamboo wall finish is main subject, realistic seams and skirting, refined warm wood grain. Wide interior architecture composition.",
+      "asset": "assets/generated-panels.jpg",
+      "source": "exec-5b1c6dec-4841-4c31-96e2-15124e51708d.png"
+    },
+    {
+      "id": "doors",
+      "prompt": "Create one single photorealistic high-end architectural/product photograph for DAMATA construction-supply catalogue, no collage, no text, no logos, no watermark, no people. Landscape 3:2 image. Accurate believable construction, editorial photography, natural colour, premium contemporary Kazakhstan residential-building setting, accessible commercially realistic mid-market materials presented beautifully, crisp detail, soft daylight and warm architectural light. One beautiful ordinary modern apartment entrance security door, closed, charcoal textured flush steel panel, long simple pull handle and small door lock, inside a bright well designed shared residential corridor, pale stone wall reveals, discreet ceiling lighting. Not exterior house doors, not glass door, not two doors. Show entire door at natural height, clear frame and threshold, realistic buildable economical residential door photographed elegantly.",
+      "asset": "assets/generated-doors.jpg",
+      "source": "exec-09d4066d-71aa-4b3d-8657-b5545fa47f91.png"
+    },
+    {
+      "id": "locks",
+      "prompt": "Create one single photorealistic high-end architectural/product photograph for DAMATA construction-supply catalogue, no collage, no text, no logos, no watermark, no people. Landscape 3:2 image. Accurate believable construction, editorial photography, natural colour, premium contemporary Kazakhstan residential-building setting, accessible commercially realistic mid-market materials presented beautifully, crisp detail, soft daylight and warm architectural light. Close-up premium modern matte graphite electronic entrance-door lock mounted correctly on a light walnut apartment entry door. Slim vertical rectangular faceplate with black glass and understated tiny illuminated numeric touch keypad above, horizontal lever handle below. Entire smart lock assembly clearly visible, slight three-quarter product view, crisp material detail, defocused bright residential corridor background, no readable brand. No weird extra handles.",
+      "asset": "assets/generated-locks.jpg",
+      "source": "exec-891ee582-faf5-4141-a5c6-6166c105ea4d.png"
+    },
+    {
+      "id": "railings",
+      "prompt": "Create one single photorealistic high-end architectural/product photograph for DAMATA construction-supply catalogue, no collage, no text, no logos, no watermark, no people. Landscape 3:2 image. Accurate believable construction, editorial photography, natural colour, premium contemporary Kazakhstan residential-building setting, accessible commercially realistic mid-market materials presented beautifully, crisp detail, soft daylight and warm architectural light. Beautiful modern residential building stairwell, a believable reinforced-concrete staircase with large pale porcelain treads and landings, simple brushed stainless steel round handrails and vertical baluster safety railings anchored correctly. Show a full flight with coherent evenly sized steps and a turn to next landing. Large stairwell window, soft daylight, tidy modern shared building interior. Railings main focus, not balcony fences and not glass fencing.",
+      "asset": "assets/generated-railings.jpg",
+      "source": "exec-0518703f-2491-4c28-ac5a-96ce16da740d.png"
+    },
+    {
+      "id": "radiators",
+      "prompt": "Create one single photorealistic high-end architectural/product photograph for DAMATA construction-supply catalogue, no collage, no text, no logos, no watermark, no people. Landscape 3:2 image. Accurate believable construction, editorial photography, natural colour, premium contemporary Kazakhstan residential-building setting, accessible commercially realistic mid-market materials presented beautifully, crisp detail, soft daylight and warm architectural light. A normal white wall-mounted steel panel heating radiator with a visible top ventilation grille and neat thermostat valve, installed below a large window in a newly finished modern apartment, natural oak flooring and light walls. Whole radiator visible, practical standard horizontal rectangular radiator, real pipe connections, no ornate designer heater, no furniture blocking it. Realistic product architectural photograph with soft daylight.",
+      "asset": "assets/generated-radiators.jpg",
+      "source": "exec-585d02b6-1748-4672-944b-304061c16a0a.png"
+    },
+    {
+      "id": "elevators",
+      "prompt": "Create one single photorealistic high-end architectural/product photograph for DAMATA construction-supply catalogue, no collage, no text, no logos, no watermark, no people. Landscape 3:2 image. Accurate believable construction, editorial photography, natural colour, premium contemporary Kazakhstan residential-building setting, accessible commercially realistic mid-market materials presented beautifully, crisp detail, soft daylight and warm architectural light. Beautiful contemporary apartment-building elevator lobby, one central open stainless steel lift doorway with a bright clean elevator cabin visible, satin stainless walls and mirror back panel, restrained warm ceiling light, pale stone tile lobby walls and porcelain floor. Accurate doorway, floor threshold and call button, no escalator. Expensive-looking but commercially realistic residential passenger elevator entrance, balanced frontal architectural photography.",
+      "asset": "assets/generated-elevators.jpg",
+      "source": "exec-e200a740-6bba-4eb1-91c2-449bb76c3815.png"
+    },
+    {
+      "id": "mop-lobby",
+      "prompt": "Create one single photorealistic high-end architectural/product photograph for DAMATA construction-supply catalogue, no collage, no text, no logos, no watermark, no people. Landscape 3:2 image. Accurate believable construction, editorial photography, natural colour, premium contemporary Kazakhstan residential-building setting, accessible commercially realistic mid-market materials presented beautifully, crisp detail, soft daylight and warm architectural light. Wide welcoming modern apartment-building shared lobby and lift waiting area: light oak/bamboo wall panels, broad warm-grey porcelain tiles, discreet bench, bright glazed main entrance in distance, neat mailboxes integrated into wall, warm linear ceiling lights, durable economical finishes arranged beautifully. No hotel reception desk, no living room furniture, no plants dominating. Realistic common residential areas suitable for Kazakhstan housing construction, calm premium architectural photograph.",
+      "asset": "assets/generated-mop-lobby.jpg",
+      "source": "exec-047bacf4-f9e7-4fd7-926e-fba3ea1ea87e.png"
+    }
+  ]
+}
