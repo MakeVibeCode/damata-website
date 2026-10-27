@@ -24,3 +24,6 @@ If connector is not configured, success screen offers optional wa.me link to 770
 
 ## Catalogue CMS
 Owner catalog-admin.js / catalogue.cjs. Source of truth is versioned SQLite JSON, seed used on first run only. Admin bearer auth and same-origin mutation checks apply to read/save/upload. Product indices 4=image and 5=published, category active flag default true. Uploaded media is intentionally public; projects stay protected. Reject invalid prices, scripts/angle brackets, unsafe media paths, duplicate slugs and published categories without published products. Conflict409 preserves form. Archive uses publication flags instead of hard deletion. Busy locks inputs/tab switch/logout. Unsaved navigation guard and explicit discard confirmation. Native category select. All shared entry points remain in admin shell.
+
+## Current business source of truth
+Customer (Kazakhstan company) → direct goods contract → Chinese supplier. DAMATA → assistance/sourcing and full transaction/import accompaniment, not goods purchaser/reseller. All Kazakhstan regions. No blanket DAMATA VAT goods-sale claim. Latest user correction overrides earlier commercial descriptions.
