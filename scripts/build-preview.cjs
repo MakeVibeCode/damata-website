@@ -7,6 +7,7 @@ const dbPath=path.join(root,'data','damata.sqlite');if(fs.existsSync(dbPath)){co
 catalog=catalog.filter(c=>c.active!==false).map(c=>({...c,products:c.products.filter(p=>p[5]!==false)}));
 for(const c of catalog)for(const image of [c.image,...c.products.map(p=>p[4])])if(image?.startsWith('/media/')){const file=path.basename(image);fs.mkdirSync(path.join(out,'media'),{recursive:true});fs.copyFileSync(path.join(root,'data','media',file),path.join(out,'media',file))}
 fs.writeFileSync(path.join(out,'catalog.json'),JSON.stringify(catalog,null,2));
+const catalogVersion=require('node:crypto').createHash('sha256').update(JSON.stringify(catalog)).digest('hex').slice(0,12);
 let app=fs.readFileSync(path.join(root,'app.js'),'utf8');
 const start=app.indexOf('async function finish(){'),end=app.indexOf('function fileSummary()',start);
 if(start<0||end<0)throw Error('Request workflow boundaries not found');
@@ -19,7 +20,7 @@ app=app.replace('Можно вернуться назад и изменить о
 app=app.replace('const id=location.pathname.split(\'/\').filter(Boolean)[1];',"const id=location.pathname.match(/\\/catalog\\/([^/]+)/)?.[1];");
 app=app.replace("?c.image:`/assets/",`?'${prefix}'+c.image:\`/assets/`);
 app=app.replaceAll('/assets/',prefix+'/assets/').replaceAll('/catalog/',prefix+'/catalog/').replace("/\\/catalog\\/([^/]+)/", "/\\/catalog\\/([^/]+)/");
-app=app.replaceAll('href="/#','href="'+prefix+'/#').replaceAll('href="/"','href="'+prefix+'/"').replaceAll("fetch('/catalog.json')",`fetch('${prefix}/catalog.json')`);
+app=app.replaceAll('href="/#','href="'+prefix+'/#').replaceAll('href="/"','href="'+prefix+'/"').replaceAll("fetch('/catalog.json')",`fetch('${prefix}/catalog.json?v=${catalogVersion}')`);
 app+='\n'+fs.readFileSync(path.join(root,'public-whatsapp.js'),'utf8');
 app=app.replace('Заявки и файлы отправляются с сайта и сохраняются в локальной базе SQLite. Автоматическая передача уведомлений в WhatsApp требует подключения бизнес-канала. Статус передачи доступен в разделе заявок для менеджера.','Заявка отправляется через WhatsApp. После подбора откроется готовое сообщение: нажмите «Отправить» в чате. Файл проекта прикрепляется в WhatsApp. Цены пока примерные.');
 fs.writeFileSync(path.join(out,'app.js'),app);
