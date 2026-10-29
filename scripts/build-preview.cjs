@@ -32,4 +32,6 @@ const revision=require('node:crypto').createHash('sha256').update(['app.js','pre
 html=html.replace(/((?:src|href)="[^"]+\.(?:js|css))"/g,'$1?v='+revision+'"');
 fs.writeFileSync(path.join(out,'index.html'),html);fs.writeFileSync(path.join(out,'404.html'),html);
 for(const c of catalog){const dir=path.join(out,'catalog',c.id);fs.mkdirSync(dir,{recursive:true});fs.writeFileSync(path.join(dir,'index.html'),html)}
+// Retire only generated route entry files; never remove user data or arbitrary directories.
+for(const entry of fs.readdirSync(path.join(out,'catalog'),{withFileTypes:true})){if(!entry.isDirectory()||catalog.some(c=>c.id===entry.name))continue;const dir=path.join(out,'catalog',entry.name),index=path.join(dir,'index.html');if(fs.existsSync(index))fs.unlinkSync(index);if(fs.readdirSync(dir).length===0)fs.rmdirSync(dir)}
 fs.writeFileSync(path.join(out,'.nojekyll'),'');console.log('Static preview built: '+out+' ('+catalog.length+' categories). No database, keys, admin files or customer projects included.');
