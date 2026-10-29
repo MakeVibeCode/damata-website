@@ -1,7 +1,7 @@
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const money=n=>new Intl.NumberFormat('ru-RU').format(n);
-const generatedImages={acp:'generated-acp',panels:'generated-panels',doors:'generated-doors',locks:'generated-locks',railings:'generated-railings',radiators:'generated-radiators',elevators:'generated-elevators'};
+const generatedImages={facades:'generated-fibercement',acp:'generated-acp',panels:'generated-panels',doors:'generated-doors',locks:'generated-locks',railings:'generated-railings',radiators:'generated-radiators',elevators:'generated-elevators'};
 const image=c=>c.image.startsWith('/media/')?'/damata-website'+c.image:`/damata-website/assets/${generatedImages[c.id]||c.image}.jpg`;
 let catalogue=[], current=null, step=0, answers={}, opener=null, completed=false, leadContext={}, projectFiles=[], submitting=false;
 const arrow='<span aria-hidden="true">↗</span>';
