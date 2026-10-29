@@ -1,0 +1,157 @@
+{
+  "created": "2026-10-29",
+  "method": "OpenAI built-in image_gen",
+  "use": "Illustrative product variants for presentation, not exact available models or completed DAMATA projects.",
+  "images": [
+    {
+      "id": "tiles-hero",
+      "prompt": "Generate ONE single photorealistic architectural/product catalogue image, landscape 3:2. For DAMATA construction supply presentation, no text, no logo, no watermark, no collage, no people. Realistic buildable modern residential construction, crisp product details, professional photography, balanced natural light and restrained warm interior lighting. Main product clearly visible, accurate proportions, no surreal construction. Not a website mockup. A beautiful large modern apartment building entrance hall, low three-quarter camera angle prominently showing large-format pale warm grey porcelain floor tiles with rich subtle mineral texture, clear straight narrow grout lines and 1200x1200mm appearance. Matte tactile surface, daylight grazing the floor, simple wall panels, distant elevator. Flooring occupies foreground and dominates image. Elegant realistically achievable shared lobby.",
+      "asset": "assets/generated-tiles-hall.jpg",
+      "source": "exec-88add7cc-ff7f-43ee-bef3-6fbbffe459fa.png"
+    },
+    {
+      "id": "facades-1",
+      "prompt": "Generate ONE single photorealistic architectural/product catalogue image, landscape 3:2. For DAMATA construction supply presentation, no text, no logo, no watermark, no collage, no people. Realistic buildable modern residential construction, crisp product details, professional photography, balanced natural light and restrained warm interior lighting. Main product clearly visible, accurate proportions, no surreal construction. Not a website mockup. Modern apartment facade clad in smooth matte off-white fibre cement rectangular boards, crisp visible dark narrow joints, large simple windows. Medium close view, one corner and courtyard, light mineral cement texture, no glossy metal.",
+      "asset": "assets/variant-facades-one.jpg",
+      "source": "exec-5403f77c-296a-459e-b0fb-b0b3fded18a2.png"
+    },
+    {
+      "id": "facades-2",
+      "prompt": "Generate ONE single photorealistic architectural/product catalogue image, landscape 3:2. For DAMATA construction supply presentation, no text, no logo, no watermark, no collage, no people. Realistic buildable modern residential construction, crisp product details, professional photography, balanced natural light and restrained warm interior lighting. Main product clearly visible, accurate proportions, no surreal construction. Not a website mockup. Contemporary residential building entrance facade clad in warm beige stone-textured fibre cement panels. Close three-quarter view clearly shows rectangular board joints, sandy mineral finish, dark frames and landscaped base. Material is flat thin cement boards with stone effect, not masonry blocks.",
+      "asset": "assets/variant-facades-two.jpg",
+      "source": "exec-5433c1f8-772e-4fbd-90fc-23b95848f520.png"
+    },
+    {
+      "id": "facades-3",
+      "prompt": "Generate ONE single photorealistic architectural/product catalogue image, landscape 3:2. For DAMATA construction supply presentation, no text, no logo, no watermark, no collage, no people. Realistic buildable modern residential construction, crisp product details, professional photography, balanced natural light and restrained warm interior lighting. Main product clearly visible, accurate proportions, no surreal construction. Not a website mockup. Modern apartment building facade with convincing wood-grain fibre cement siding panels, horizontal warm walnut-coloured boards with clean joints, graphite window frames, a little pale plaster. Close architectural facade view, wood effect on practical panel cladding, believable urban residential construction.",
+      "asset": "assets/variant-facades-three.jpg",
+      "source": "exec-88d3e472-e9fb-49cf-8537-5aa8098d9d83.png"
+    },
+    {
+      "id": "tiles-1",
+      "prompt": "Generate ONE single photorealistic architectural/product catalogue image, landscape 3:2. For DAMATA construction supply presentation, no text, no logo, no watermark, no collage, no people. Realistic buildable modern residential construction, crisp product details, professional photography, balanced natural light and restrained warm interior lighting. Main product clearly visible, accurate proportions, no surreal construction. Not a website mockup. Bright modern apartment lobby with medium-grey concrete-look matte porcelain floor tiles, square 600x600 appearance, visible tile grid and subtle mottled cement texture. Low camera with floor foreground, minimal warm white walls and black entrance doors. Flooring is the clear subject.",
+      "asset": "assets/variant-tiles-one.jpg",
+      "source": "exec-a61ee3d7-0723-4e7a-94f7-fcfb64fdee72.png"
+    },
+    {
+      "id": "tiles-2",
+      "prompt": "Generate ONE single photorealistic architectural/product catalogue image, landscape 3:2. For DAMATA construction supply presentation, no text, no logo, no watermark, no collage, no people. Realistic buildable modern residential construction, crisp product details, professional photography, balanced natural light and restrained warm interior lighting. Main product clearly visible, accurate proportions, no surreal construction. Not a website mockup. Warm contemporary residential entrance hall with large rectangular beige travertine-look porcelain floor tiles, 600x1200 appearance, delicate linear stone grain clearly visible, narrow joints, dark bronze mailboxes and warm lighting. Low architectural camera and rich stone texture, not a hotel reception.",
+      "asset": "assets/variant-tiles-two.jpg",
+      "source": "exec-a3c9aae8-c7bc-4e49-898f-17885a12d15a.png"
+    },
+    {
+      "id": "tiles-3",
+      "prompt": "Generate ONE single photorealistic architectural/product catalogue image, landscape 3:2. For DAMATA construction supply presentation, no text, no logo, no watermark, no collage, no people. Realistic buildable modern residential construction, crisp product details, professional photography, balanced natural light and restrained warm interior lighting. Main product clearly visible, accurate proportions, no surreal construction. Not a website mockup. Luxurious but believable new apartment building hall with huge white marble-look porcelain slabs on floor, soft grey flowing veins, visible sparse large-format tile joints, satin finish and daylight reflections. Low oblique camera foreground marble texture, restrained modern interior.",
+      "asset": "assets/variant-tiles-three.jpg",
+      "source": "exec-390beadc-c0a8-4319-a406-1387f97b6434.png"
+    },
+    {
+      "id": "panels-1",
+      "prompt": "Generate ONE single photorealistic architectural/product catalogue image, landscape 3:2. For DAMATA construction supply presentation, no text, no logo, no watermark, no collage, no people. Realistic buildable modern residential construction, crisp product details, professional photography, balanced natural light and restrained warm interior lighting. Main product clearly visible, accurate proportions, no surreal construction. Not a website mockup. Welcoming modern apartment-building entrance lobby dominated by full height light oak-look bamboo-composite wall panels, light wood grain, broad panels and one ribbed accent, neat mailboxes, pale porcelain flooring. Warm bright shared residential entrance, wall finish clearly legible, no living room.",
+      "asset": "assets/variant-panels-one.jpg",
+      "source": "exec-b75e3f43-b808-44e9-a8e3-7bb2bcaf4d3f.png"
+    },
+    {
+      "id": "panels-2",
+      "prompt": "Generate ONE single photorealistic architectural/product catalogue image, landscape 3:2. For DAMATA construction supply presentation, no text, no logo, no watermark, no collage, no people. Realistic buildable modern residential construction, crisp product details, professional photography, balanced natural light and restrained warm interior lighting. Main product clearly visible, accurate proportions, no surreal construction. Not a website mockup. Distinct contemporary apartment elevator lobby with matte graphite bamboo-composite wall panels and subtle vertical texture, slim bronze reveals, linear warm wall lighting, pale stone floor. Moody but bright enough to see deep graphite material, main wall in foreground, restrained practical shared residential interior.",
+      "asset": "assets/variant-panels-two.jpg",
+      "source": "exec-703c5a70-44aa-402f-913a-9bb05162d7ff.png"
+    },
+    {
+      "id": "panels-3",
+      "prompt": "Generate ONE single photorealistic architectural/product catalogue image, landscape 3:2. For DAMATA construction supply presentation, no text, no logo, no watermark, no collage, no people. Realistic buildable modern residential construction, crisp product details, professional photography, balanced natural light and restrained warm interior lighting. Main product clearly visible, accurate proportions, no surreal construction. Not a website mockup. Modern residential common hall with light ivory stone-look bamboo-composite decorative wall panels, wide floor-to-ceiling panels with fine seams and soft pale limestone texture. Clean entrance seating niche, warm wood doorway, plenty of daylight. Main product is light stone-effect interior wall cladding.",
+      "asset": "assets/variant-panels-three.jpg",
+      "source": "exec-442569cb-ada9-4715-9ef6-f68c761416e9.png"
+    },
+    {
+      "id": "doors-1",
+      "prompt": "Generate ONE single photorealistic architectural/product catalogue image, landscape 3:2. For DAMATA construction supply presentation, no text, no logo, no watermark, no collage, no people. Realistic buildable modern residential construction, crisp product details, professional photography, balanced natural light and restrained warm interior lighting. Main product clearly visible, accurate proportions, no surreal construction. Not a website mockup. One simple beautiful closed charcoal grey powder-coated steel apartment entrance security door in a bright residential shared corridor. Standard rectangular frame, ordinary small silver lever handle, peephole and cylinder lock. Whole door visible, no huge pull handle, no exterior house garden.",
+      "asset": "assets/variant-doors-one.jpg",
+      "source": "exec-8c812544-fb54-42f9-8825-34d3cf303f92.png"
+    },
+    {
+      "id": "doors-2",
+      "prompt": "Generate ONE single photorealistic architectural/product catalogue image, landscape 3:2. For DAMATA construction supply presentation, no text, no logo, no watermark, no collage, no people. Realistic buildable modern residential construction, crisp product details, professional photography, balanced natural light and restrained warm interior lighting. Main product clearly visible, accurate proportions, no surreal construction. Not a website mockup. One closed apartment entrance security door finished with warm natural oak-look MDF panel with subtle vertical milling, neat black lever handle and peephole, dark metal frame in bright pale stone shared apartment corridor. Whole door visible, distinct warm wood surface, practical apartment door not villa entrance.",
+      "asset": "assets/variant-doors-two.jpg",
+      "source": "exec-051bf233-5e9a-4240-aab6-6c4f34bfd9f8.png"
+    },
+    {
+      "id": "doors-3",
+      "prompt": "Generate ONE single photorealistic architectural/product catalogue image, landscape 3:2. For DAMATA construction supply presentation, no text, no logo, no watermark, no collage, no people. Realistic buildable modern residential construction, crisp product details, professional photography, balanced natural light and restrained warm interior lighting. Main product clearly visible, accurate proportions, no surreal construction. Not a website mockup. One refined modern apartment security entry door with smooth pale greige panel, two narrow vertical dark decorative inlays and dark lever handle, dark slim frame, ceiling-lit shared apartment corridor. Whole closed door visible, believable standard apartment size, distinctive custom finish.",
+      "asset": "assets/variant-doors-three.jpg",
+      "source": "exec-f8ca08a4-e770-46e8-bf5f-b2432668b9e7.png"
+    },
+    {
+      "id": "locks-1",
+      "prompt": "Generate ONE single photorealistic architectural/product catalogue image, landscape 3:2. For DAMATA construction supply presentation, no text, no logo, no watermark, no collage, no people. Realistic buildable modern residential construction, crisp product details, professional photography, balanced natural light and restrained warm interior lighting. Main product clearly visible, accurate proportions, no surreal construction. Not a website mockup. Close-up product photograph of a standard modern mechanical mortise door lock: satin stainless steel horizontal lever on small rectangular escutcheon, visible euro-profile key cylinder below, fitted properly on a grey apartment steel entry door. Crisp realistic metal hardware, slight three-quarter view, no electronic keypad.",
+      "asset": "assets/variant-locks-one.jpg",
+      "source": "exec-b9e2bf1e-8212-4258-8fb6-4e77dee5d7ba.png"
+    },
+    {
+      "id": "locks-2",
+      "prompt": "Generate ONE single photorealistic architectural/product catalogue image, landscape 3:2. For DAMATA construction supply presentation, no text, no logo, no watermark, no collage, no people. Realistic buildable modern residential construction, crisp product details, professional photography, balanced natural light and restrained warm interior lighting. Main product clearly visible, accurate proportions, no surreal construction. Not a website mockup. Close-up of a robust mechanical apartment security-door lock set: sturdy black horizontal lever, two separate substantial dark metal cylinder protector escutcheons below and above, fitted correctly on dark wood door panel. Believable reinforced lock hardware, crisp detail, no keypad or screen.",
+      "asset": "assets/variant-locks-two.jpg",
+      "source": "exec-734291db-7a1f-4638-9ed8-75af1acef540.png"
+    },
+    {
+      "id": "locks-3",
+      "prompt": "Generate ONE single photorealistic architectural/product catalogue image, landscape 3:2. For DAMATA construction supply presentation, no text, no logo, no watermark, no collage, no people. Realistic buildable modern residential construction, crisp product details, professional photography, balanced natural light and restrained warm interior lighting. Main product clearly visible, accurate proportions, no surreal construction. Not a website mockup. Close-up modern electronic smart apartment door lock with slim matte black vertical touchscreen keypad, visible subtle numeric keys, card-reader area and horizontal lever, mounted properly on light oak door. Full unit visible, bright soft residential corridor background, detailed realistic hardware.",
+      "asset": "assets/variant-locks-three.jpg",
+      "source": "exec-6e185e29-dbba-4345-927a-1372bb4370ea.png"
+    },
+    {
+      "id": "radiators-1",
+      "prompt": "Generate ONE single photorealistic architectural/product catalogue image, landscape 3:2. For DAMATA construction supply presentation, no text, no logo, no watermark, no collage, no people. Realistic buildable modern residential construction, crisp product details, professional photography, balanced natural light and restrained warm interior lighting. Main product clearly visible, accurate proportions, no surreal construction. Not a website mockup. A normal white horizontal steel panel heating radiator mounted under a window in a clean new apartment, neat thermostat and pipe connections, top ventilation grille, light wooden floor. Whole radiator unobstructed, crisp realistic detail, natural daylight.",
+      "asset": "assets/variant-radiators-one.jpg",
+      "source": "exec-e01a94d3-807c-4244-9e17-19bef50d5d44.png"
+    },
+    {
+      "id": "radiators-2",
+      "prompt": "Generate ONE single photorealistic architectural/product catalogue image, landscape 3:2. For DAMATA construction supply presentation, no text, no logo, no watermark, no collage, no people. Realistic buildable modern residential construction, crisp product details, professional photography, balanced natural light and restrained warm interior lighting. Main product clearly visible, accurate proportions, no surreal construction. Not a website mockup. A standard white sectional aluminium heating radiator with clearly separate vertical repeating sections, mounted beneath a window in a new apartment. Visible side thermostat and tidy pipes, pale walls and light grey floor, entire radiator unobstructed, realistic product photography.",
+      "asset": "assets/variant-radiators-two.jpg",
+      "source": "exec-7ca19a87-d8fc-47cc-b5e0-dccf6dfb8ae7.png"
+    },
+    {
+      "id": "radiators-3",
+      "prompt": "Generate ONE single photorealistic architectural/product catalogue image, landscape 3:2. For DAMATA construction supply presentation, no text, no logo, no watermark, no collage, no people. Realistic buildable modern residential construction, crisp product details, professional photography, balanced natural light and restrained warm interior lighting. Main product clearly visible, accurate proportions, no surreal construction. Not a website mockup. A slim tall white vertical tubular heating radiator mounted on wall beside a tall apartment window, clearly visible parallel vertical tubes, thermostat at bottom, warm grey wall and oak flooring. Full radiator in frame, modern realistic interior and product details.",
+      "asset": "assets/variant-radiators-three.jpg",
+      "source": "exec-add57c7c-2cae-4186-98ee-db0cc7e78bf5.png"
+    },
+    {
+      "id": "acp-1",
+      "prompt": "Generate ONE single photorealistic architectural/product catalogue image, landscape 3:2. For DAMATA construction supply presentation, no text, no logo, no watermark, no collage, no people. Realistic buildable modern residential construction, crisp product details, professional photography, balanced natural light and restrained warm interior lighting. Main product clearly visible, accurate proportions, no surreal construction. Not a website mockup. Contemporary commercial building corner clad in solid matte ivory aluminium composite facade cassette panels, crisp large rectangular panel grid with narrow black joints and folded edges, dark windows. Clearly metallic flat ACP cladding, clean natural daylight, main facade close enough to see joints.",
+      "asset": "assets/variant-acp-one.jpg",
+      "source": "exec-82f8ef06-e58d-4191-892b-3a620f471fb9.png"
+    },
+    {
+      "id": "acp-2",
+      "prompt": "Generate ONE single photorealistic architectural/product catalogue image, landscape 3:2. For DAMATA construction supply presentation, no text, no logo, no watermark, no collage, no people. Realistic buildable modern residential construction, crisp product details, professional photography, balanced natural light and restrained warm interior lighting. Main product clearly visible, accurate proportions, no surreal construction. Not a website mockup. Modern commercial building corner clad in satin silver metallic aluminium composite panels, subtle brushed metal sheen and cool blue sky reflections, precise rectangular cassette seams, dark glass window strips. Close three-quarter architectural photo with sharp panel surface detail.",
+      "asset": "assets/variant-acp-two.jpg",
+      "source": "exec-869845dd-6447-4257-9f97-67b27fa193a6.png"
+    },
+    {
+      "id": "acp-3",
+      "prompt": "Generate ONE single photorealistic architectural/product catalogue image, landscape 3:2. For DAMATA construction supply presentation, no text, no logo, no watermark, no collage, no people. Realistic buildable modern residential construction, crisp product details, professional photography, balanced natural light and restrained warm interior lighting. Main product clearly visible, accurate proportions, no surreal construction. Not a website mockup. Modern building entrance volume clad in decorative warm walnut wood-effect aluminium composite panels, clearly broad flat ACP cassettes with dark rectangular joints, crisp folded metal corners, glass entry doors. Convincing wood-grain printed aluminium cladding, warm daylight, high-quality architectural photo.",
+      "asset": "assets/variant-acp-three.jpg",
+      "source": "exec-71e75e98-225f-49c9-8efe-0eb719b54ace.png"
+    },
+    {
+      "id": "elevators-1",
+      "prompt": "Generate ONE single photorealistic architectural/product catalogue image, landscape 3:2. For DAMATA construction supply presentation, no text, no logo, no watermark, no collage, no people. Realistic buildable modern residential construction, crisp product details, professional photography, balanced natural light and restrained warm interior lighting. Main product clearly visible, accurate proportions, no surreal construction. Not a website mockup. Open ordinary modern residential passenger elevator with compact satin stainless steel cabin, mirror back panel, horizontal handrail, simple bright ceiling light. Front doorway and cabin fully visible in light grey porcelain apartment lobby, accurate threshold, clear practical compact lift.",
+      "asset": "assets/variant-elevators-one.jpg",
+      "source": "exec-21dbf1e4-04b6-4135-ba78-322bcb6fcda1.png"
+    },
+    {
+      "id": "elevators-2",
+      "prompt": "Generate ONE single photorealistic architectural/product catalogue image, landscape 3:2. For DAMATA construction supply presentation, no text, no logo, no watermark, no collage, no people. Realistic buildable modern residential construction, crisp product details, professional photography, balanced natural light and restrained warm interior lighting. Main product clearly visible, accurate proportions, no surreal construction. Not a website mockup. Open wide modern residential freight-passenger elevator: visibly wider doorway and deeper spacious stainless steel cabin, robust horizontal protective rails, bright functional LED ceiling, durable grey cabin floor. Whole doorway visible in a clean building lobby, realistic equipment proportions.",
+      "asset": "assets/variant-elevators-two.jpg",
+      "source": "exec-7a97ed65-1d99-40bb-a4b0-41f1065f041c.png"
+    },
+    {
+      "id": "elevators-3",
+      "prompt": "Generate ONE single photorealistic architectural/product catalogue image, landscape 3:2. For DAMATA construction supply presentation, no text, no logo, no watermark, no collage, no people. Realistic buildable modern residential construction, crisp product details, professional photography, balanced natural light and restrained warm interior lighting. Main product clearly visible, accurate proportions, no surreal construction. Not a website mockup. Open contemporary residential elevator with premium light oak decorative cabin wall panels, brushed bronze trims, large mirror, soft integrated ceiling lights, polished pale porcelain lobby. Whole doorway and cabin visible, sophisticated customized cabin finish, no extra elevator floating parts.",
+      "asset": "assets/variant-elevators-three.jpg",
+      "source": "exec-88fa9fba-1a2f-40e7-ba72-3105afbf8230.png"
+    }
+  ]
+}

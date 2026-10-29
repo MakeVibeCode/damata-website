@@ -27,9 +27,11 @@ fs.writeFileSync(path.join(out,'app.js'),app);
 let presentation=fs.readFileSync(path.join(root,'presentation.js'),'utf8').replaceAll('/assets/',prefix+'/assets/').replaceAll('/catalog/',prefix+'/catalog/').replaceAll('href="/#','href="'+prefix+'/#').replaceAll('href="/"','href="'+prefix+'/"');fs.writeFileSync(path.join(out,'presentation.js'),presentation);
 fs.copyFileSync(path.join(root,'design.css'),path.join(out,'design.css'));
 fs.copyFileSync(path.join(root,'lead.js'),path.join(out,'lead.js'));
+fs.copyFileSync(path.join(root,'product-details.js'),path.join(out,'product-details.js'));
 let css=fs.readFileSync(path.join(root,'styles.css'),'utf8');css+='\n.preview-note{position:fixed;z-index:50;left:50%;bottom:14px;transform:translateX(-50%);padding:7px 16px;border:1px solid #e0cc8a66;border-radius:30px;background:#171a17ed;color:#e0cc8a;font:10px Arial;text-align:center;max-width:90%;box-shadow:0 5px 20px #0004}@media(max-width:720px){.preview-note{bottom:82px;width:max-content;max-width:92%;font-size:9px}}';fs.writeFileSync(path.join(out,'styles.css'),css);
 let html=fs.readFileSync(path.join(root,'index.html'),'utf8').replaceAll('href="/styles.css"',`href="${prefix}/styles.css"`).replaceAll('href="/design.css"',`href="${prefix}/design.css"`).replaceAll('href="/assets/fonts.css"',`href="${prefix}/assets/fonts.css"`).replaceAll('src="/presentation.js"',`src="${prefix}/presentation.js"`).replaceAll('src="/lead.js"',`src="${prefix}/lead.js"`).replaceAll('src="/app.js"',`src="${prefix}/app.js"`);
-const revision=require('node:crypto').createHash('sha256').update(['app.js','presentation.js','design.css','assets/fonts.css'].map(name=>fs.readFileSync(path.join(out,name))).join('')).digest('hex').slice(0,12);
+html=html.replace('src="/product-details.js"',`src="${prefix}/product-details.js"`);
+const revision=require('node:crypto').createHash('sha256').update(['app.js','presentation.js','product-details.js','design.css','assets/fonts.css'].map(name=>fs.readFileSync(path.join(out,name))).join('')).digest('hex').slice(0,12);
 html=html.replace(/((?:src|href)="[^"]+\.(?:js|css))"/g,'$1?v='+revision+'"');
 fs.writeFileSync(path.join(out,'index.html'),html);fs.writeFileSync(path.join(out,'404.html'),html);
 for(const c of catalog){const dir=path.join(out,'catalog',c.id);fs.mkdirSync(dir,{recursive:true});fs.writeFileSync(path.join(dir,'index.html'),html)}
