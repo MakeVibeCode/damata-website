@@ -1,7 +1,7 @@
 :root{
-  --paper:#f2f4f1;--surface:#fff;--ink:#192f31;--muted:#596966;--line:#cdd4ce;
-  --accent:#36594f;--dark:#e7ece7;--deep:#182e30;--stone:#dce2da;
-  --thumb:#7a8f87;--track:#e6ebe6;--thumb-hover:#526e64;--error:#a7332f;
+  --paper:#f5f6f8;--surface:#fff;--ink:#152b40;--muted:#556575;--line:#d9e0e7;
+  --accent:#b6382e;--dark:#e9eef4;--deep:#102638;--stone:#dde4eb;
+  --thumb:#8092a4;--track:#e9eef4;--thumb-hover:#526a80;--error:#a7332f;
   --sans:'Manrope',Arial,Helvetica,sans-serif;--serif:'Prata',Georgia,serif;
   --text-meta:14px;--text-body:16px;--text-lead:18px;
   --max:1480px;--ease:cubic-bezier(.2,.75,.2,1);--gutter:clamp(22px,4.3vw,80px);
