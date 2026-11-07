@@ -1,7 +1,7 @@
 const fs=require('node:fs'),path=require('node:path'),{execFileSync}=require('node:child_process');
 const root=path.resolve(__dirname,'..'),out=path.join(root,'github-preview');
 const remote='https://github.com/MakeVibeCode/damata-website.git';
-function git(args,cwd=out){return execFileSync('git',args,{cwd,encoding:'utf8',stdio:['ignore','pipe','pipe']}).trim()}
+function git(args,cwd=out){return execFileSync('git',['-c','safe.directory='+out,...args],{cwd,encoding:'utf8',stdio:['ignore','pipe','pipe']}).trim()}
 for(const name of ['data','admin.html','.env','server.cjs','storage.cjs'])if(fs.existsSync(path.join(out,name)))throw Error('Private source in public artifact: '+name);
 if(fs.readdirSync(path.join(out,'assets')).some(n=>n.endsWith('.json')))throw Error('Source provenance in public artifact');
 const sourceCommit=git(['rev-parse','HEAD'],root);
