@@ -1,5 +1,81 @@
 # DAMATA — design context
 
+## Public release and complete catalogue photo series — 2026-11-07
+
+User explicitly requested all updates online and a working link. Reuse the existing GitHub Pages deployment at https://makevibecode.github.io/damata-website/ from MakeVibeCode/damata-website gh-pages. This supersedes earlier local-only notes. Existing private Sites placeholder remains unused.
+
+Eight category photographs and 24 distinct product-variant photographs now share the approved terracotta/travertine/bronze light. Runtime category map in app.js uses terra-category-*.jpg; product image slot [4] in seed/live catalogue uses terra-variant-*.jpg. Custom /media images are retained. Existing assets are preserved. Full selected prompts and provenance: assets/terracotta-catalogue-sources.json and assets/terracotta-variant-sources.json. All selected images were inspected together; informational-sheet generations were rejected and regenerated as clean photographs. All 32 final JPEG hashes are distinct, 8.98 MB combined.
+
+Online transport is the established static WhatsApp variant: full validated request opens WhatsApp to +77020818888; the customer presses Send. Private database, uploads, admin keys and source provenance are excluded from the static artifact. scripts/build-preview.cjs packages the existing CMS catalogue; scripts/publish-pages.cjs pushes a descendant commit to the existing gh-pages branch and writes release.json for verification. Source changes are committed separately to main.
+
+Verification: syntax checks and existing catalogue, WhatsApp and server suites passed; 32 distinct JPEGs checked. Browser on the prefixed public preview: category filtering, correct new image paths, product detail to preselected quote, inline required-field error, no mobile horizontal overflow, no console errors. Approved hero and warm design remain.
+
+
+## Current identity — terracotta material world, 2026-11-07
+
+User enthusiastically approved assets/material-studio-hero.jpg and explicitly requested its terracotta character throughout the entire site. Preserve that hero image and composition. This supersedes the neutral warm-monochrome reference palette below.
+
+North star: sculptural travertine, clay plaster, warm bronze and dark walnut, all lit by low sunlight. Shared homepage/category/request surfaces now use sand, rich terracotta and tobacco brown. Company section is clay with pale text and a new matching architectural scene; supply steps are tobacco brown with bronze selections; CTA layers the approved photo beneath a terracotta tint; catalogue/cards, FAQ and dialogs use sand/ivory. Product photos remain recognisable, with only a restrained CSS warmth adjustment on public category imagery. Existing transitions, interactions, request persistence and CMS contracts remain.
+
+Canonical design.css tokens: paper #f3e7d8, surface #fbf3e8, ink #352418, muted #705640, line #d7bfa4, accent #9c4e2d, dark #dfc5a6, deep #302016, stone #dfc6a7, soft #e9d5b9, accent-light #e6bb86, accent-hover #76391f, dark-surface #4b2d1e, muted-inverse #d5bba0, clay #75422d, clay-deep #56311f, bronze #b88750. brand.css remains the public adapter. SVG mark background follows clay. Header/hero remain photographic with white type and CTA.
+
+New project asset: assets/terracotta-material-space.jpg, 313 KB, built-in image_gen; prompt/provenance in assets/terracotta-material-space-source.json. It is an architectural illustration, not a real completed company project. It appears in the company collage and the final illustrative delivery stage. Original approved hero is unchanged.
+
+Verification: tested representative colour contrast and darkened secondary text on sand. Browser: new source image and clay fill, mobile 390px no overflow; delivery stage selects exactly one control and matching new image; quote opens with 9 choices and a sand dialog, Escape closes. Syntax and existing catalogue/WhatsApp/server suites pass after static preview rebuild.
+
+
+## Latest reference — Online Stores composition, 2026-11-07
+
+User explicitly requested the appearance of https://www.squarespace.com/online-stores and reiterated close visual matching. This supersedes the black moving-gallery opening and graphite/cobalt palette. Reference inspected in a browser: full-bleed warm product still-life, transparent white navigation, centered white heading and rectangular CTA, floating rounded dark subnav, followed by a large framed product showcase. Implement that composition for DAMATA while retaining its content and request behavior.
+
+New home: full-viewport warm material still-life with transparent header → sticky dark pill navigation → framed three-material showcase over the photographic setting → white editorial introduction → paired catalogue imagery → sourcing/services → interactive supply process → quotation/FAQ/footer. Homepage body class store-home controls the overlay header and supports both root and prefixed static paths. Category pages retain a solid header.
+
+Canonical palette in design.css: paper #f8f7f3, surface #fff, ink #24221e, muted #756f65, line #d8d3ca, accent #312d27, dark #e9e3d9, deep #171614, stone #e3ddd2; soft #eeebe4, accent-light #ded5c7, accent-hover #51483b, dark-surface #302c25, muted-inverse #bdb6aa. All typography remains Manrope. Large image cards use two columns; shapes follow the reference with rectangular CTAs and one pill navigation.
+
+New asset: assets/material-studio-hero.jpg (212 KB), generated with built-in image_gen for this project and optimised as JPEG. It depicts travertine, metal, porcelain and fluted panels; it is illustrative, not an exact product photograph or completed project. Full prompt/provenance in assets/material-studio-hero-source.json. Own imagery/copy/implementation, no external Squarespace assets reused. Hero settles subtly at load; existing reveal, stage and reduced-motion behavior remains. Removed former moving gallery from rendered home; its pause controls are absent.
+
+Verified: desktop composition against reference; phone 390px without overflow; background loads; header absolute on home; subnav sticky; quote opens/Escape closes; subnav catalogue link works; facade filter returns two cards. All existing test suites pass after static preview rebuild. No publication.
+
+
+## Current refinement — palette and motion, 2026-11-07
+
+User approved the moving first screen and requested a cohesive palette and animation across the remaining site. Preserve its composition. This update supersedes the separate lavender/mineral/cobalt section fills and serif invitation below.
+
+Canonical design.css tokens: paper #f5f6f9, surface #fff, ink #17191f, muted #626a79, line #dce0e8, accent #3c51f5, dark #e8ecff, deep #101112, stone #e0e3eb; new supporting roles soft #edf0f6, accent-light #c5ccff, accent-hover #2538c8, dark-surface #1b1e27, muted-inverse #aeb4c1, line-inverse #ffffff26. brand.css aliases the canonical roles. Main palette is graphite/cool white/cobalt throughout; manifesto and sourcing use the same soft surface, journey and quote share graphite with a dividing rule. All public display type uses Manrope. Blue headline emphasis, small eyebrow rule and image treatment repeat across routes.
+
+Motion uses the existing shared observer, after bindExperience prepares reveal targets. Content enters once over 650ms with small, bounded stagger; filtered/product cards stagger by row index. Sourcing/detail photographs adjust object position by at most 12px as they pass through the viewport. Stage image/copy/route animate on selection; FAQ answer and icon respond on opening; cards, sourcing collage and footer share restrained hover reactions. No new continuous decorative loops; the hero gallery retains its pause/offscreen/visibility behavior. Reduced-motion disables reveal movement, image drift and interaction animations. Existing forms, CMS and server contracts are unchanged.
+
+Browser verification: computed section fills share declared tokens; stage 4 selects exactly one button, updates matching copy and plays stage-enter/route-draw; FAQ opens with answer animation; quote uses Manrope. Mobile quote opens/closes; no overflow or pending in-viewport reveals at 390/320px. Corrected hidden mobile line-break whitespace in FAQ title.
+
+
+## Current direction — Squarespace reference, 2026-11-07
+
+The latest user request supersedes the previous navy architectural hero. Reference reviewed directly: https://www.squarespace.com/go/create-a-website . Adopt its centered oversized typography, black opening and moving visual gallery as composition cues; all implementation, company copy and assets are DAMATA-owned or retained project assets. Company name remains DAMATA TRADING CO., LTD. No platform migration or publication.
+
+North star: a bold materials company making China sourcing tangible. Signature: a continuous, staggered material gallery feeding into an interactive six-stage supply explanation. Homepage sequence: centered black hero + moving material images → lavender statement → filterable catalogue → pale mineral sourcing collage → dark interactive process → cobalt quote invitation → FAQ → oversized DAMATA footer. No fabricated portfolio, testimonials, volume statistics, shipment tracking or delivery guarantees.
+
+Canonical runtime tokens in design.css :root: paper #f6f6f2, surface #fff, ink #17181a, muted #626762, line #d3d4cd, accent #3c51f5, dark #e8eaff, deep #101112, stone #dedfd8. brand.css is the public adapter: electric/brand-red #3c51f5 (legacy semantic name retained for compatibility), brand-red-hover #2538c8, brand-blue #101112, brand-blue-light #30344e, lilac #dce0ff, radius 6px. Typography: Manrope for display/body; Prata only in final invitation emphasis. Original SVG mark retains geometry with cobalt background.
+
+Owners: presentation.js shared templates, supplyStages/stagePanel and bindExperience; app.js bindPresentation invokes bindExperience after rendering. Existing app.js request state, product-details.js, CMS, server/storage remain canonical. Gallery CSS runs at 65s desktop/75s mobile and pauses on hover, focus, explicit pause, offscreen or hidden document. The pause is local to this page; no storage. Reduced-motion disables it; originals remain horizontally scrollable, decorative duplicate group is hidden. Keyboard focus stops the transform and exposes horizontal scrolling. Interactive stage controls are native pressed buttons; one selected stage updates an illustrated panel and live status. This explains the service process; it does not simulate real shipment data.
+
+Responsive: desktop catalogue 4 columns, 3 below 1150px, 2 below 900px; phone has two cards. Stage control list becomes a 2-column button grid above its panel. Mobile collage stacks, quote action stays accessible. Admin UI remains separately styled.
+
+Verification: node syntax checks; all three existing tests passed after rebuilding the static preview. Browser: pause sets animation state to paused; stage 2 and 6 render matching copy/image; only one stage retains pressed state; no missing loaded images; mobile navigation closes after selection; door/lock filter returns two cards; product detail transfers chosen variant to quote step 2; validation error stays inline; Escape closes dialog. No horizontal overflow on 390px and 320px screens. Static Python skill audit remains unavailable because local Python resolves only to a Windows Store alias.
+
+
+## Current public presentation — 2026-11-07
+
+User requested a complete, serious and clear company presentation that encourages enquiries. Current identity: DAMATA TRADING CO., LTD. This section supersedes historical public appearance notes below. Audience: Kazakhstan developers, contractors and procurement teams sourcing construction materials from China. Primary action: request a project-specific quote through the existing wizard.
+
+Direction: full-width architectural image with an integrated navy gradient, large Manrope typography, white catalogue, pale blue-grey partner section and a dark final quote section. The signature is the uninterrupted architectural hero and small CN → KZ route stamp. Existing generated images remain labelled as illustrations; no invented projects, testimonials, scale statistics or delivery promises.
+
+Runtime ownership: design.css :root retains semantic tokens (paper #f5f6f8, surface #fff, ink #152b40, muted #556575, line #d9e0e7, accent #b6382e, deep #102638). brand.css is the single public appearance adapter and owns the four brand colours, 4px base radius and brand shadow. presentation.js owns all shared public templates; app.js owns existing catalogue/request behavior. No new dependencies. Admin and private data contracts stay with existing owners.
+
+Page progression: architectural hero → four concrete supply benefits → filterable eight-direction catalogue → supplier accompaniment → six ordered stages → quotation/contact → FAQ → company footer. Desktop catalogue has four columns (three below 1150px, two below 900px); compact mobile cards have two columns. Mobile partner image follows its explanation. All category routes use the same service, process, quote and footer components. Quote transport, CMS and pricing remain as before; all illustrative prices carry qualification.
+
+Verification: JavaScript syntax checks; product catalogue, public WhatsApp and server test suites passed. Browser checks: desktop presentation, mobile menu, catalogue filtering, validation error, product detail → preselected quote, responsive widths 390 and 320 without horizontal overflow.
+
+
 Russian mobile-first B2B catalogue for direct sourcing of building materials from China. Local site with explicit WhatsApp handoff; no automatic submissions, analytics, CRM or deployment. Prices are illustrative KZT, not offers. Stock images illustrate applications, not completed company projects.
 
 ## Visual direction
@@ -96,3 +172,11 @@ Runtime ownership remains model B: `design.css :root` owns shared public semanti
 Original vector mark `assets/damata-export-mark.svg` combines a house roof, D-like frame and outward arrow, set on a cinnabar seal-shaped square. Header/footer use the same image + live DAMATA / EXPORT HOUSE wordmark, and the favicon uses the same SVG. Descriptor is 9–10px at logo size as brand artwork; ordinary body text remains 16px, mobile product specs 15–16px. No invented Chinese characters or national affiliation claims.
 
 Layout now uses a navy split hero framed by light margins, white product cards in a regular three-column desktop/two-column tablet/single-column phone grid, restrained 12px corners, red actions and navy selected filters. Mobile header keeps the full brand and a 48px menu button; the repeated header CTA is hidden because a persistent bottom quote action remains. All eight routes, 24 independent variant images, product sheets, native dialog focus, quote selection and public WhatsApp transport are retained. Reduced motion disables hover lift and inherited animations. The admin style owner styles.css remains unchanged.
+
+
+## Header company name — 2026-11-07
+User supplied GUANGDONG DAMATA TRADING CO., LTD for the public header. Shared presentation.js header uses two live text lines (GUANGDONG DAMATA / TRADING CO., LTD) and the full accessible home-link name. brand.css sizes this header-only wordmark for desktop and mobile; the header quote action hides below 1150px to preserve navigation space.
+
+
+## Header company name correction — 2026-11-07
+Latest user instruction replaces the previous header name with DAMATA TRADING CO., LTD. Public header wordmark reads DAMATA / TRADING CO., LTD, with matching accessible home-link name.

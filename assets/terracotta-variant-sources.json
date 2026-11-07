@@ -1,0 +1,199 @@
+{
+  "generator": "Built-in image_gen",
+  "date": "2026-11-07",
+  "notice": "Illustrations for product selection, not exact model photographs.",
+  "images": [
+    {
+      "id": "facades",
+      "key": "variant-facades-one",
+      "name": "Фиброцемент · гладкий",
+      "source": "C:/Users/local/.codex/generated_images/01a1b37b-6146-7d90-9b57-10fc11e3b0af/exec-04d1e633-7fd9-4cdb-8b2d-d499f66c6c77.png",
+      "asset": "terra-variant-facades-one.jpg",
+      "prompt": "Use case: ads-marketing. One standalone photorealistic catalogue photograph, landscape 4:3, for a unified DAMATA building-material series. Warm low afternoon sunlight from the upper left, long precise diagonal shadows, terracotta plaster, pale travertine, restrained brushed-bronze details, walnut and rich tobacco-brown depth. The product described below must be the clear recognisable hero and must match its specific finish/type; don't recolour the product just to make it warm. Surroundings carry the warm palette. Crisp realistic construction and tangible surface texture, plausible mechanisms, good framing with the entire product or relevant installed surface visible, generous crop margins for mobile portrait. Keep this particular variant visually distinct. No people, text, digits, logos, UI, watermarks or false certification claims. Illustrative application, not a real completed company project. Russian specification below is for what to depict, not text to write in the image. No dimensions or writing visible.\nPRODUCT VARIANT: Фиброцемент · гладкий\nSPECIFICATION: Спокойная матовая облицовка для жилых фасадов.\nПоверхность: Гладкая, под окраску\nТолщина (пример): 8 мм\nФормат (пример): 1220 × 2440 мм\nПрименение: Фасады и входные группы\nПлотность: По паспорту выбранного производителя\nМонтаж: По проекту фасадной системы"
+    },
+    {
+      "id": "facades",
+      "key": "variant-facades-two",
+      "name": "Фиброцемент · камень",
+      "source": "C:/Users/local/.codex/generated_images/01a1b37b-6146-7d90-9b57-10fc11e3b0af/exec-e579d213-b3b2-4958-a376-5f401577dffc.png",
+      "asset": "terra-variant-facades-two.jpg",
+      "prompt": "Use case: ads-marketing. One standalone photorealistic catalogue photograph, landscape 4:3, for a unified DAMATA building-material series. Warm low afternoon sunlight from the upper left, long precise diagonal shadows, terracotta plaster, pale travertine, restrained brushed-bronze details, walnut and rich tobacco-brown depth. The product described below must be the clear recognisable hero and must match its specific finish/type; don't recolour the product just to make it warm. Surroundings carry the warm palette. Crisp realistic construction and tangible surface texture, plausible mechanisms, good framing with the entire product or relevant installed surface visible, generous crop margins for mobile portrait. Keep this particular variant visually distinct. No people, text, digits, logos, UI, watermarks or false certification claims. Illustrative application, not a real completed company project. Russian specification below is for what to depict, not text to write in the image. No dimensions or writing visible.\nPRODUCT VARIANT: Фиброцемент · камень\nSPECIFICATION: Минеральная фактура для акцентных участков здания.\nПоверхность: Имитация камня\nТолщина (пример): 10 мм\nФормат (пример): 1220 × 2440 мм\nПрименение: Фасады, простенки, входные группы\nПлотность: По паспорту выбранного производителя\nКрепление: По проекту подсистемы"
+    },
+    {
+      "id": "facades",
+      "key": "variant-facades-three",
+      "name": "Фиброцемент · дерево",
+      "source": "C:/Users/local/.codex/generated_images/01a1b37b-6146-7d90-9b57-10fc11e3b0af/exec-4d17234a-8601-410d-a04b-2d65d8a3f62e.png",
+      "asset": "terra-variant-facades-three.jpg",
+      "prompt": "Use case: ads-marketing. One standalone photorealistic catalogue photograph, landscape 4:3, for a unified DAMATA building-material series. Warm low afternoon sunlight from the upper left, long precise diagonal shadows, terracotta plaster, pale travertine, restrained brushed-bronze details, walnut and rich tobacco-brown depth. The product described below must be the clear recognisable hero and must match its specific finish/type; don't recolour the product just to make it warm. Surroundings carry the warm palette. Crisp realistic construction and tangible surface texture, plausible mechanisms, good framing with the entire product or relevant installed surface visible, generous crop margins for mobile portrait. Keep this particular variant visually distinct. No people, text, digits, logos, UI, watermarks or false certification claims. Illustrative application, not a real completed company project. Russian specification below is for what to depict, not text to write in the image. No dimensions or writing visible.\nPRODUCT VARIANT: Фиброцемент · дерево\nSPECIFICATION: Древесная фактура для тёплых фасадных акцентов.\nПоверхность: Имитация древесины\nТолщина (пример): 8 мм\nРаскрой: Под рисунок фасада\nПрименение: Балконы, простенки, входные группы\nПлотность: По паспорту выбранного производителя\nПокрытие: Согласуем по образцу"
+    },
+    {
+      "id": "tiles",
+      "key": "variant-tiles-one",
+      "name": "Керамогранит · бетон",
+      "source": "C:/Users/local/.codex/generated_images/01a1b37b-6146-7d90-9b57-10fc11e3b0af/exec-956eacb4-32ab-442f-af48-818e19fd4876.png",
+      "asset": "terra-variant-tiles-one.jpg",
+      "prompt": "Use case: ads-marketing. One standalone photorealistic catalogue photograph, landscape 4:3, for a unified DAMATA building-material series. Warm low afternoon sunlight from the upper left, long precise diagonal shadows, terracotta plaster, pale travertine, restrained brushed-bronze details, walnut and rich tobacco-brown depth. The product described below must be the clear recognisable hero and must match its specific finish/type; don't recolour the product just to make it warm. Surroundings carry the warm palette. Crisp realistic construction and tangible surface texture, plausible mechanisms, good framing with the entire product or relevant installed surface visible, generous crop margins for mobile portrait. Keep this particular variant visually distinct. No people, text, digits, logos, UI, watermarks or false certification claims. Illustrative application, not a real completed company project. Russian specification below is for what to depict, not text to write in the image. No dimensions or writing visible.\nPRODUCT VARIANT: Керамогранит · бетон\nSPECIFICATION: Практичная фактура бетона для повседневной отделки.\nФормат (пример): 600 × 600 мм\nПоверхность: Матовая, бетон\nПрименение: Полы холлов и коридоров\nТолщина: По паспорту выбранной коллекции\nСкольжение: Подбираем под зону применения\nКомплектация: Плитка и подрезка по ведомости"
+    },
+    {
+      "id": "tiles",
+      "key": "variant-tiles-two",
+      "name": "Керамогранит · травертин",
+      "source": "C:/Users/local/.codex/generated_images/01a1b37b-6146-7d90-9b57-10fc11e3b0af/exec-1aa1c8c2-bdff-400d-8983-6eba9956afb3.png",
+      "asset": "terra-variant-tiles-two.jpg",
+      "prompt": "Use case: ads-marketing. One standalone photorealistic catalogue photograph, landscape 4:3, for a unified DAMATA building-material series. Warm low afternoon sunlight from the upper left, long precise diagonal shadows, terracotta plaster, pale travertine, restrained brushed-bronze details, walnut and rich tobacco-brown depth. The product described below must be the clear recognisable hero and must match its specific finish/type; don't recolour the product just to make it warm. Surroundings carry the warm palette. Crisp realistic construction and tangible surface texture, plausible mechanisms, good framing with the entire product or relevant installed surface visible, generous crop margins for mobile portrait. Keep this particular variant visually distinct. No people, text, digits, logos, UI, watermarks or false certification claims. Illustrative application, not a real completed company project. Russian specification below is for what to depict, not text to write in the image. No dimensions or writing visible.\nPRODUCT VARIANT: Керамогранит · травертин\nSPECIFICATION: Тёплая каменная фактура для современных подъездов.\nФормат (пример): 600 × 1200 мм\nПоверхность: Матовая, травертин\nПрименение: Полы и стены общих пространств\nТолщина: По паспорту выбранной коллекции\nРисунок: Согласуем по образцам\nРаскладка: По дизайн-проекту"
+    },
+    {
+      "id": "tiles",
+      "key": "variant-tiles-three",
+      "name": "Керамогранит · мрамор",
+      "source": "C:/Users/local/.codex/generated_images/01a1b37b-6146-7d90-9b57-10fc11e3b0af/exec-cb8b82fa-bd35-41cf-97b9-19c3bf65296f.png",
+      "asset": "terra-variant-tiles-three.jpg",
+      "prompt": "Use case: ads-marketing. One standalone photorealistic catalogue photograph, landscape 4:3, for a unified DAMATA building-material series. Warm low afternoon sunlight from the upper left, long precise diagonal shadows, terracotta plaster, pale travertine, restrained brushed-bronze details, walnut and rich tobacco-brown depth. The product described below must be the clear recognisable hero and must match its specific finish/type; don't recolour the product just to make it warm. Surroundings carry the warm palette. Crisp realistic construction and tangible surface texture, plausible mechanisms, good framing with the entire product or relevant installed surface visible, generous crop margins for mobile portrait. Keep this particular variant visually distinct. No people, text, digits, logos, UI, watermarks or false certification claims. Illustrative application, not a real completed company project. Russian specification below is for what to depict, not text to write in the image. No dimensions or writing visible.\nPRODUCT VARIANT: Керамогранит · мрамор\nSPECIFICATION: Выразительный рисунок мрамора в крупном формате.\nФормат (пример): 1200 × 2400 мм\nПоверхность: Сатин, мрамор\nПрименение: Холлы и входные группы\nТолщина: По паспорту выбранной коллекции\nРисунок: Подбор направления прожилок\nМонтаж: По требованиям выбранной плиты"
+    },
+    {
+      "id": "panels",
+      "key": "variant-panels-one",
+      "name": "Панель · светлый дуб",
+      "source": "C:/Users/local/.codex/generated_images/01a1b37b-6146-7d90-9b57-10fc11e3b0af/exec-74502b2a-1b91-4947-9234-133ef5ccb06d.png",
+      "asset": "terra-variant-panels-one.jpg",
+      "prompt": "PHOTOGRAPH ONLY. Create one single photorealistic architectural product application photograph, landscape 4:3, edge-to-edge camera image. Not a poster, not a catalogue page, not an infographic, not a product sheet. Absolutely NO text, labels, letters, numbers, diagrams, captions, collages, split-screen or UI. One continuous real scene, warm sunlight from upper left and long diagonal shadows, terracotta clay plaster walls, pale travertine floor, restrained brushed-bronze trims, rich tobacco-brown and walnut details. The product is the clear hero, plausibly installed, whole visible, generous crop margins, natural material texture, no people. Beautiful high-end architecture magazine photography matching a warm terracotta material still-life.\nScene: A wall clad in LIGHT OAK WOODGRAIN BAMBOO COMPOSITE PANELS in a modern entrance lobby. Clearly pale honey-oak finish, large broad sheets and subtle seams. Adjacent terracotta wall and bronze trim."
+    },
+    {
+      "id": "panels",
+      "key": "variant-panels-two",
+      "name": "Панель · графит",
+      "source": "C:/Users/local/.codex/generated_images/01a1b37b-6146-7d90-9b57-10fc11e3b0af/exec-35fdb21e-20c4-45e1-b647-601b945e7bc6.png",
+      "asset": "terra-variant-panels-two.jpg",
+      "prompt": "PHOTOGRAPH ONLY. Create one single photorealistic architectural product application photograph, landscape 4:3, edge-to-edge camera image. Not a poster, not a catalogue page, not an infographic, not a product sheet. Absolutely NO text, labels, letters, numbers, diagrams, captions, collages, split-screen or UI. One continuous real scene, warm sunlight from upper left and long diagonal shadows, terracotta clay plaster walls, pale travertine floor, restrained brushed-bronze trims, rich tobacco-brown and walnut details. The product is the clear hero, plausibly installed, whole visible, generous crop margins, natural material texture, no people. Beautiful high-end architecture magazine photography matching a warm terracotta material still-life.\nScene: A wall clad in MATT DARK GRAPHITE COMPOSITE WALL PANELS in a modern entrance lobby. Large flat charcoal-grey panel sheets with thin vertical joins. Keep graphite product grey; surroundings terracotta and travertine, low warm sunlight."
+    },
+    {
+      "id": "panels",
+      "key": "variant-panels-three",
+      "name": "Панель · светлый камень",
+      "source": "C:/Users/local/.codex/generated_images/01a1b37b-6146-7d90-9b57-10fc11e3b0af/exec-dda4b817-d64e-4f61-aeba-1da9b0b17040.png",
+      "asset": "terra-variant-panels-three.jpg",
+      "prompt": "PHOTOGRAPH ONLY. Create one single photorealistic architectural product application photograph, landscape 4:3, edge-to-edge camera image. Not a poster, not a catalogue page, not an infographic, not a product sheet. Absolutely NO text, labels, letters, numbers, diagrams, captions, collages, split-screen or UI. One continuous real scene, warm sunlight from upper left and long diagonal shadows, terracotta clay plaster walls, pale travertine floor, restrained brushed-bronze trims, rich tobacco-brown and walnut details. The product is the clear hero, plausibly installed, whole visible, generous crop margins, natural material texture, no people. Beautiful high-end architecture magazine photography matching a warm terracotta material still-life.\nScene: A wall clad in LIGHT STONE-EFFECT COMPOSITE WALL PANELS in a residential hallway. Broad flat warm ivory mineral-textured panels with minimal subtle seams, adjacent terracotta plaster, bronze edge trims. Stone decor, not wood grain."
+    },
+    {
+      "id": "doors",
+      "key": "variant-doors-one",
+      "name": "Дверь · базовая",
+      "source": "C:/Users/local/.codex/generated_images/01a1b37b-6146-7d90-9b57-10fc11e3b0af/exec-048e642f-1276-49c0-9b9d-2fca9ac411f7.png",
+      "asset": "terra-variant-doors-one.jpg",
+      "prompt": "PHOTOGRAPH ONLY. Create one single photorealistic architectural product application photograph, landscape 4:3, edge-to-edge camera image. Not a poster, not a catalogue page, not an infographic, not a product sheet. Absolutely NO text, labels, letters, numbers, diagrams, captions, collages, split-screen or UI. One continuous real scene, warm sunlight from upper left and long diagonal shadows, terracotta clay plaster walls, pale travertine floor, restrained brushed-bronze trims, rich tobacco-brown and walnut details. The product is the clear hero, plausibly installed, whole visible, generous crop margins, natural material texture, no people. Beautiful high-end architecture magazine photography matching a warm terracotta material still-life.\nScene: A single CLOSED DARK GRAPHITE POWDER-COATED STEEL APARTMENT ENTRY DOOR, full height visible, plain flat face, simple steel lever handle and round lock cylinder, rectangular metal frame, no door number or signage. Installed in a terracotta corridor with travertine floor."
+    },
+    {
+      "id": "doors",
+      "key": "variant-doors-two",
+      "name": "Дверь · с МДФ-панелью",
+      "source": "C:/Users/local/.codex/generated_images/01a1b37b-6146-7d90-9b57-10fc11e3b0af/exec-186b4ee2-411b-49dd-b48b-78e6a3ebeb0a.png",
+      "asset": "terra-variant-doors-two.jpg",
+      "prompt": "PHOTOGRAPH ONLY. Create one single photorealistic architectural product application photograph, landscape 4:3, edge-to-edge camera image. Not a poster, not a catalogue page, not an infographic, not a product sheet. Absolutely NO text, labels, letters, numbers, diagrams, captions, collages, split-screen or UI. One continuous real scene, warm sunlight from upper left and long diagonal shadows, terracotta clay plaster walls, pale travertine floor, restrained brushed-bronze trims, rich tobacco-brown and walnut details. The product is the clear hero, plausibly installed, whole visible, generous crop margins, natural material texture, no people. Beautiful high-end architecture magazine photography matching a warm terracotta material still-life.\nScene: A single CLOSED STEEL APARTMENT ENTRY DOOR with a WARM WALNUT MDF WOODGRAIN DECORATIVE FRONT PANEL, full height visible, subtle vertical detailing, simple dark metal lever and lock cylinder, dark steel frame, no number or signage, installed in a terracotta apartment corridor."
+    },
+    {
+      "id": "doors",
+      "key": "variant-doors-three",
+      "name": "Дверь · под спецификацию",
+      "source": "C:/Users/local/.codex/generated_images/01a1b37b-6146-7d90-9b57-10fc11e3b0af/exec-fe05338c-07bb-4558-9aeb-ebfa59fb78c7.png",
+      "asset": "terra-variant-doors-three.jpg",
+      "prompt": "PHOTOGRAPH ONLY. Create one single photorealistic architectural product application photograph, landscape 4:3, edge-to-edge camera image. Not a poster, not a catalogue page, not an infographic, not a product sheet. Absolutely NO text, labels, letters, numbers, diagrams, captions, collages, split-screen or UI. One continuous real scene, warm sunlight from upper left and long diagonal shadows, terracotta clay plaster walls, pale travertine floor, restrained brushed-bronze trims, rich tobacco-brown and walnut details. The product is the clear hero, plausibly installed, whole visible, generous crop margins, natural material texture, no people. Beautiful high-end architecture magazine photography matching a warm terracotta material still-life.\nScene: A single CLOSED CUSTOM STEEL APARTMENT ENTRY DOOR with a DARK BRONZE-BROWN DECORATIVE FRONT and understated narrow vertical inset, full door visible, sturdy rectangular frame, dark lever and cylinder. Installed in a modern terracotta residential corridor, travertine floor and warm sunlight. No door number or signage."
+    },
+    {
+      "id": "locks",
+      "key": "variant-locks-one",
+      "name": "Замок · механический",
+      "source": "C:/Users/local/.codex/generated_images/01a1b37b-6146-7d90-9b57-10fc11e3b0af/exec-6268a31c-6999-4208-983d-ba2588854c7e.png",
+      "asset": "terra-variant-locks-one.jpg",
+      "prompt": "PHOTOGRAPH ONLY. Create one single photorealistic architectural product application photograph, landscape 4:3, edge-to-edge camera image. Not a poster, not a catalogue page, not an infographic, not a product sheet. Absolutely NO text, labels, letters, numbers, diagrams, captions, collages, split-screen or UI. One continuous real scene, warm sunlight from upper left and long diagonal shadows, terracotta clay plaster walls, pale travertine floor, restrained brushed-bronze trims, rich tobacco-brown and walnut details. The product is the clear hero, plausibly installed, whole visible, generous crop margins, natural material texture, no people. Beautiful high-end architecture magazine photography matching a warm terracotta material still-life.\nScene: A REAL MECHANICAL MORTISE DOOR LOCK installed on a walnut entry door. Close-up of a modest satin-bronze simple horizontal LEVER HANDLE on a small round rose, separate visible euro cylinder below. Edge of door shows plausible rectangular mortise faceplate. No keypad or electronics. Warm terracotta and stone background softly blurred. This is a photograph of the installed door hardware, not loose components or a layout."
+    },
+    {
+      "id": "locks",
+      "key": "variant-locks-two",
+      "name": "Замок · усиленный комплект",
+      "source": "C:/Users/local/.codex/generated_images/01a1b37b-6146-7d90-9b57-10fc11e3b0af/exec-aa55fa09-2eef-4f6f-827f-7057756a693b.png",
+      "asset": "terra-variant-locks-two.jpg",
+      "prompt": "PHOTOGRAPH ONLY. Create one single photorealistic architectural product application photograph, landscape 4:3, edge-to-edge camera image. Not a poster, not a catalogue page, not an infographic, not a product sheet. Absolutely NO text, labels, letters, numbers, diagrams, captions, collages, split-screen or UI. One continuous real scene, warm sunlight from upper left and long diagonal shadows, terracotta clay plaster walls, pale travertine floor, restrained brushed-bronze trims, rich tobacco-brown and walnut details. The product is the clear hero, plausibly installed, whole visible, generous crop margins, natural material texture, no people. Beautiful high-end architecture magazine photography matching a warm terracotta material still-life.\nScene: A REINFORCED MECHANICAL ENTRY DOOR LOCK SET installed on a dark steel door. Close-up of a satin-bronze horizontal LEVER HANDLE on a sturdy elongated backplate and a separate thick protective cylinder escutcheon beneath. Show the installed hardware, whole within the image. No electronics, no keypad, no disassembled components. Warm terracotta wall and travertine subtly out of focus behind."
+    },
+    {
+      "id": "locks",
+      "key": "variant-locks-three",
+      "name": "Замок · электронный",
+      "source": "C:/Users/local/.codex/generated_images/01a1b37b-6146-7d90-9b57-10fc11e3b0af/exec-8dcd9ae9-b2cd-435c-99e6-567118acae24.png",
+      "asset": "terra-variant-locks-three.jpg",
+      "prompt": "PHOTOGRAPH ONLY. Create one single photorealistic architectural product application photograph, landscape 4:3, edge-to-edge camera image. Not a poster, not a catalogue page, not an infographic, not a product sheet. Absolutely NO text, labels, letters, numbers, diagrams, captions, collages, split-screen or UI. One continuous real scene, warm sunlight from upper left and long diagonal shadows, terracotta clay plaster walls, pale travertine floor, restrained brushed-bronze trims, rich tobacco-brown and walnut details. The product is the clear hero, plausibly installed, whole visible, generous crop margins, natural material texture, no people. Beautiful high-end architecture magazine photography matching a warm terracotta material still-life.\nScene: One MATTE BLACK ELECTRONIC SMART ENTRY DOOR LOCK installed on a walnut door. Vertical slim escutcheon with a horizontal lever and a dark unlit touch panel, tiny circular sensor. All hardware entirely visible in a three-quarter close-up, physically plausible. Warm terracotta and bronze interior blurred beyond. No digits, no screen UI or lit text."
+    },
+    {
+      "id": "radiators",
+      "key": "variant-radiators-one",
+      "name": "Радиатор · панельный",
+      "source": "C:/Users/local/.codex/generated_images/01a1b37b-6146-7d90-9b57-10fc11e3b0af/exec-d3b6341f-31e4-4f81-a7c2-e2e5292f472c.png",
+      "asset": "terra-variant-radiators-one.jpg",
+      "prompt": "PHOTOGRAPH ONLY. Create one single photorealistic architectural product application photograph, landscape 4:3, edge-to-edge camera image. Not a poster, not a catalogue page, not an infographic, not a product sheet. Absolutely NO text, labels, letters, numbers, diagrams, captions, collages, split-screen or UI. One continuous real scene, warm sunlight from upper left and long diagonal shadows, terracotta clay plaster walls, pale travertine floor, restrained brushed-bronze trims, rich tobacco-brown and walnut details. The product is the clear hero, plausibly installed, whole visible, generous crop margins, natural material texture, no people. Beautiful high-end architecture magazine photography matching a warm terracotta material still-life.\nScene: A STANDARD WHITE STEEL PANEL RADIATOR mounted low against a terracotta apartment wall, horizontal rectangular ribbed panel, top grille, two simple white pipes connecting naturally to the floor. Practical ordinary heating equipment. Show the whole radiator, no labels. Travertine floor and bronze window frame, warm sunlight."
+    },
+    {
+      "id": "radiators",
+      "key": "variant-radiators-two",
+      "name": "Радиатор · секционный",
+      "source": "C:/Users/local/.codex/generated_images/01a1b37b-6146-7d90-9b57-10fc11e3b0af/exec-fe1ead96-d6a3-4ec5-ab59-d152ba963f9b.png",
+      "asset": "terra-variant-radiators-two.jpg",
+      "prompt": "PHOTOGRAPH ONLY. Create one single photorealistic architectural product application photograph, landscape 4:3, edge-to-edge camera image. Not a poster, not a catalogue page, not an infographic, not a product sheet. Absolutely NO text, labels, letters, numbers, diagrams, captions, collages, split-screen or UI. One continuous real scene, warm sunlight from upper left and long diagonal shadows, terracotta clay plaster walls, pale travertine floor, restrained brushed-bronze trims, rich tobacco-brown and walnut details. The product is the clear hero, plausibly installed, whole visible, generous crop margins, natural material texture, no people. Beautiful high-end architecture magazine photography matching a warm terracotta material still-life.\nScene: A WHITE SECTIONAL ALUMINIUM HEATING RADIATOR with ten clearly separate connected vertical cast sections, mounted low against a terracotta apartment wall, simple white connecting pipes. Keep the real radiator white. Entire horizontal radiator clearly visible, pale stone floor and walnut window reveal, warm sun."
+    },
+    {
+      "id": "radiators",
+      "key": "variant-radiators-three",
+      "name": "Радиатор · вертикальный",
+      "source": "C:/Users/local/.codex/generated_images/01a1b37b-6146-7d90-9b57-10fc11e3b0af/exec-bf0844db-6bad-4e31-b72d-de6e5e77507d.png",
+      "asset": "terra-variant-radiators-three.jpg",
+      "prompt": "PHOTOGRAPH ONLY. Create one single photorealistic architectural product application photograph, landscape 4:3, edge-to-edge camera image. Not a poster, not a catalogue page, not an infographic, not a product sheet. Absolutely NO text, labels, letters, numbers, diagrams, captions, collages, split-screen or UI. One continuous real scene, warm sunlight from upper left and long diagonal shadows, terracotta clay plaster walls, pale travertine floor, restrained brushed-bronze trims, rich tobacco-brown and walnut details. The product is the clear hero, plausibly installed, whole visible, generous crop margins, natural material texture, no people. Beautiful high-end architecture magazine photography matching a warm terracotta material still-life.\nScene: A TALL NARROW VERTICAL HEATING RADIATOR, matte dark bronze-brown, a simple row of slender straight vertical heating tubes, mounted on a narrow terracotta wall pier beside a window. Show entire tall radiator and simple bottom connections, realistic practical heating installation. Pale travertine floor and warm architectural interior."
+    },
+    {
+      "id": "acp",
+      "key": "variant-acp-one",
+      "name": "АКП · однотонные",
+      "source": "C:/Users/local/.codex/generated_images/01a1b37b-6146-7d90-9b57-10fc11e3b0af/exec-bc03bd12-5b4c-4e8b-83a5-f60fe48324bc.png",
+      "asset": "terra-variant-acp-one.jpg",
+      "prompt": "Use case: ads-marketing. One standalone photorealistic catalogue photograph, landscape 4:3, for a unified DAMATA building-material series. Warm low afternoon sunlight from the upper left, long precise diagonal shadows, terracotta plaster, pale travertine, restrained brushed-bronze details, walnut and rich tobacco-brown depth. The product described below must be the clear recognisable hero and must match its specific finish/type; don't recolour the product just to make it warm. Surroundings carry the warm palette. Crisp realistic construction and tangible surface texture, plausible mechanisms, good framing with the entire product or relevant installed surface visible, generous crop margins for mobile portrait. Keep this particular variant visually distinct. No people, text, digits, logos, UI, watermarks or false certification claims. Illustrative application, not a real completed company project. Russian specification below is for what to depict, not text to write in the image. No dimensions or writing visible.\nPRODUCT VARIANT: АКП · однотонные\nSPECIFICATION: Ровные однотонные кассеты для лаконичного фасада.\nОтделка: Однотонная\nТолщина (пример): 4 мм\nФормат (пример): 1220 × 2440 мм\nПрименение: Фасады и входные группы\nСлой алюминия и сердцевина: По требованиям проекта\nПожарные показатели: По протоколам выбранной панели"
+    },
+    {
+      "id": "acp",
+      "key": "variant-acp-two",
+      "name": "АКП · металлик",
+      "source": "C:/Users/local/.codex/generated_images/01a1b37b-6146-7d90-9b57-10fc11e3b0af/exec-cde8194e-4fea-4ec9-acd7-e46a09893c1b.png",
+      "asset": "terra-variant-acp-two.jpg",
+      "prompt": "Use case: ads-marketing. One standalone photorealistic catalogue photograph, landscape 4:3, for a unified DAMATA building-material series. Warm low afternoon sunlight from the upper left, long precise diagonal shadows, terracotta plaster, pale travertine, restrained brushed-bronze details, walnut and rich tobacco-brown depth. The product described below must be the clear recognisable hero and must match its specific finish/type; don't recolour the product just to make it warm. Surroundings carry the warm palette. Crisp realistic construction and tangible surface texture, plausible mechanisms, good framing with the entire product or relevant installed surface visible, generous crop margins for mobile portrait. Keep this particular variant visually distinct. No people, text, digits, logos, UI, watermarks or false certification claims. Illustrative application, not a real completed company project. Russian specification below is for what to depict, not text to write in the image. No dimensions or writing visible.\nPRODUCT VARIANT: АКП · металлик\nSPECIFICATION: Металлический эффект с аккуратной сеткой фасадных швов.\nОтделка: Металлик\nТолщина (пример): 4 мм\nФормат (пример): 1220 × 2440 мм\nКассеты: Раскрой и гибка по проекту\nПокрытие: Подбираем под условия эксплуатации\nСердцевина и документы: Согласуем под объект"
+    },
+    {
+      "id": "acp",
+      "key": "variant-acp-three",
+      "name": "АКП · декоративные",
+      "source": "C:/Users/local/.codex/generated_images/01a1b37b-6146-7d90-9b57-10fc11e3b0af/exec-9cd30b68-6ed3-4993-afd5-65d532753781.png",
+      "asset": "terra-variant-acp-three.jpg",
+      "prompt": "Use case: ads-marketing. One standalone photorealistic catalogue photograph, landscape 4:3, for a unified DAMATA building-material series. Warm low afternoon sunlight from the upper left, long precise diagonal shadows, terracotta plaster, pale travertine, restrained brushed-bronze details, walnut and rich tobacco-brown depth. The product described below must be the clear recognisable hero and must match its specific finish/type; don't recolour the product just to make it warm. Surroundings carry the warm palette. Crisp realistic construction and tangible surface texture, plausible mechanisms, good framing with the entire product or relevant installed surface visible, generous crop margins for mobile portrait. Keep this particular variant visually distinct. No people, text, digits, logos, UI, watermarks or false certification claims. Illustrative application, not a real completed company project. Russian specification below is for what to depict, not text to write in the image. No dimensions or writing visible.\nPRODUCT VARIANT: АКП · декоративные\nSPECIFICATION: Декоративная поверхность для акцентных фасадных решений.\nОтделка: Дерево или другой согласованный декор\nТолщина (пример): 4 мм\nФормат (пример): 1220 × 2440 мм\nПрименение: Входные группы и фасадные акценты\nРаскрой: По кассетной раскладке\nПоказатели и состав: Подтверждаем по паспорту"
+    },
+    {
+      "id": "elevators",
+      "key": "variant-elevators-one",
+      "name": "Лифт · пассажирский",
+      "source": "C:/Users/local/.codex/generated_images/01a1b37b-6146-7d90-9b57-10fc11e3b0af/exec-22bfdeb8-8cc4-46e6-90b0-a3e6cdbfb418.png",
+      "asset": "terra-variant-elevators-one.jpg",
+      "prompt": "Use case: ads-marketing. One standalone photorealistic catalogue photograph, landscape 4:3, for a unified DAMATA building-material series. Warm low afternoon sunlight from the upper left, long precise diagonal shadows, terracotta plaster, pale travertine, restrained brushed-bronze details, walnut and rich tobacco-brown depth. The product described below must be the clear recognisable hero and must match its specific finish/type; don't recolour the product just to make it warm. Surroundings carry the warm palette. Crisp realistic construction and tangible surface texture, plausible mechanisms, good framing with the entire product or relevant installed surface visible, generous crop margins for mobile portrait. Keep this particular variant visually distinct. No people, text, digits, logos, UI, watermarks or false certification claims. Illustrative application, not a real completed company project. Russian specification below is for what to depict, not text to write in the image. No dimensions or writing visible.\nPRODUCT VARIANT: Лифт · пассажирский\nSPECIFICATION: Пассажирский лифт для типового жилого здания.\nНазначение: Перевозка пассажиров\nГрузоподъёмность (пример): 630 кг\nОтделка: Нержавеющая сталь и зеркало\nШахта и проём: По чертежам объекта\nСкорость и остановки: Под этажность здания\nПараметры безопасности: По проекту и документам модели"
+    },
+    {
+      "id": "elevators",
+      "key": "variant-elevators-two",
+      "name": "Лифт · грузопассажирский",
+      "source": "C:/Users/local/.codex/generated_images/01a1b37b-6146-7d90-9b57-10fc11e3b0af/exec-6249e2d7-3fcd-4031-923b-7bd9e33af1d4.png",
+      "asset": "terra-variant-elevators-two.jpg",
+      "prompt": "Use case: ads-marketing. One standalone photorealistic catalogue photograph, landscape 4:3, for a unified DAMATA building-material series. Warm low afternoon sunlight from the upper left, long precise diagonal shadows, terracotta plaster, pale travertine, restrained brushed-bronze details, walnut and rich tobacco-brown depth. The product described below must be the clear recognisable hero and must match its specific finish/type; don't recolour the product just to make it warm. Surroundings carry the warm palette. Crisp realistic construction and tangible surface texture, plausible mechanisms, good framing with the entire product or relevant installed surface visible, generous crop margins for mobile portrait. Keep this particular variant visually distinct. No people, text, digits, logos, UI, watermarks or false certification claims. Illustrative application, not a real completed company project. Russian specification below is for what to depict, not text to write in the image. No dimensions or writing visible.\nPRODUCT VARIANT: Лифт · грузопассажирский\nSPECIFICATION: Более вместительная кабина для жилого комплекса.\nНазначение: Грузопассажирское исполнение\nГрузоподъёмность (пример): 1000 кг\nОтделка: Износостойкая, по спецификации\nШахта и проём: По проектным размерам\nРазмер кабины: Под требуемую вместимость\nКомплектация: По согласованному проекту"
+    },
+    {
+      "id": "elevators",
+      "key": "variant-elevators-three",
+      "name": "Лифт · под проект",
+      "source": "C:/Users/local/.codex/generated_images/01a1b37b-6146-7d90-9b57-10fc11e3b0af/exec-3cb05a38-5d24-4f4e-90cd-3d5560228fa9.png",
+      "asset": "terra-variant-elevators-three.jpg",
+      "prompt": "Use case: ads-marketing. One standalone photorealistic catalogue photograph, landscape 4:3, for a unified DAMATA building-material series. Warm low afternoon sunlight from the upper left, long precise diagonal shadows, terracotta plaster, pale travertine, restrained brushed-bronze details, walnut and rich tobacco-brown depth. The product described below must be the clear recognisable hero and must match its specific finish/type; don't recolour the product just to make it warm. Surroundings carry the warm palette. Crisp realistic construction and tangible surface texture, plausible mechanisms, good framing with the entire product or relevant installed surface visible, generous crop margins for mobile portrait. Keep this particular variant visually distinct. No people, text, digits, logos, UI, watermarks or false certification claims. Illustrative application, not a real completed company project. Russian specification below is for what to depict, not text to write in the image. No dimensions or writing visible.\nPRODUCT VARIANT: Лифт · под проект\nSPECIFICATION: Индивидуальная отделка кабины под дизайн входных групп.\nНазначение: Пассажирский лифт под проект\nОтделка: Панели, зеркало и металл на выбор\nГрузоподъёмность: По требованиям объекта\nШахта и проём: По чертежам\nОсвещение и управление: По спецификации\nДокументы и параметры: Согласуем для выбранной модели"
+    }
+  ]
+}

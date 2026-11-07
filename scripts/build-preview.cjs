@@ -1,7 +1,9 @@
 const fs=require('node:fs'),path=require('node:path');
 const root=path.resolve(__dirname,'..'),out=path.join(root,'github-preview'),prefix='/damata-website';
 fs.mkdirSync(path.join(out,'assets'),{recursive:true});
-for(const name of fs.readdirSync(path.join(root,'assets')))if(/\.(jpg|png|svg|json|css|woff2?|ttf|txt)$/.test(name)){let content=fs.readFileSync(path.join(root,'assets',name));if(name.endsWith('.css'))content=Buffer.from(content.toString().replaceAll('/assets/',prefix+'/assets/'));fs.writeFileSync(path.join(out,'assets',name),content)}
+// Provenance stays with the source project; the public bundle contains runtime assets only.
+for(const name of fs.readdirSync(path.join(out,'assets')))if(name.endsWith('.json'))fs.unlinkSync(path.join(out,'assets',name));
+for(const name of fs.readdirSync(path.join(root,'assets')))if(/\.(jpg|png|svg|css|woff2?|ttf|txt)$/.test(name)){let content=fs.readFileSync(path.join(root,'assets',name));if(name.endsWith('.css'))content=Buffer.from(content.toString().replaceAll('/assets/',prefix+'/assets/'));fs.writeFileSync(path.join(out,'assets',name),content)}
 let catalog=JSON.parse(fs.readFileSync(path.join(root,'catalog.json'),'utf8').replace(/^\uFEFF/,''));
 const dbPath=path.join(root,'data','damata.sqlite');if(fs.existsSync(dbPath)){const {DatabaseSync}=require('node:sqlite');const db=new DatabaseSync(dbPath,{readOnly:true});const row=db.prepare('SELECT data FROM catalogue WHERE id=1').get();if(row)catalog=JSON.parse(row.data);db.close()}
 catalog=catalog.filter(c=>c.active!==false).map(c=>({...c,products:c.products.filter(p=>p[5]!==false)}));
